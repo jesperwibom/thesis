@@ -1,0 +1,974 @@
+﻿Macintosh HD:private:var:folders:2g:_krs6cns7yngz7bgvdnc8bqc0000gp:T:TemporaryItems:MAH_Culture-and-society_original.png 
+
+How to leverage asylum seekers ability to engage in the asylum evaluation process by increasing accessibility of governmental asylum process guiding documentation
+
+
+Jesper Andersson
+
+
+
+
+Interaction design
+Bachelor thesis
+30p
+Spring 2017
+Supervisor: Anuradha Venugopal Reddy
+________________
+Contact information
+
+
+Authour:
+Jesper Andersson
+E-mail: jspra86@gmail.com
+
+
+Supervisor:
+Anuradha Venugopal Reddy
+E-mail: anuradha.venugopal.reddy@mah.se
+Malmö University, Konst, kultur och samhälle (K3).
+
+
+Examinator:
+FirstName LastName
+E-mail: xx.xx @mah.se
+Malmö University, Malmö University, Konst, kultur och samhälle (K3).
+________________
+Abstract
+In this work an alternative search functionality for the Swedish Migration Agency’s land information database is designed, prototyped and tested. By using machine translation and a simplified interface design it attempts to give asylum seekers better understanding on what documents are available. As a consequence of increased asylum process understanding in the user group it is stipulated that it will increase trust in the process and that asylum seekers can feel more active and engaged in their application.
+This work also critically explore the area of asylum in Sweden from a design perspective. It builds upon design politics and service design and discuss current trends when it comes to refugees and the technology and design industry. What is found is that there is an unfortunate gap in knowledge areas between humanitarian organisations and the industry. This, in partial, because an exaggerated belief in the “design method” as a universal problem solver.
+
+
+Keywords: asylum, design politics, machine translation, open data, accessibility,
+________________
+Thanks
+I want to thank my supervisor Anuradha Venugopal Reddy for helping me find the right path when I lead myself astray. I also want to thank my awesome colleges at Topp for being fine with me going back to school for a while. Thanks to all my teachers that made a bigger impression on me than they might know. And thanks to my awesome classmates, I don’t know if I would have made it without you guys. <3
+
+
+PS: Mom and dad, I love you!
+________________
+
+
+Table of contents
+
+
+Introduction        9
+Deliminations        9
+Design process overview        10
+Goals and aims        11
+Background        12
+Global refugee situation and its effect on Swedish migration policies        12
+Theory        14
+Swedish migration law        14
+The process of getting asylum in Sweden        15
+The evaluation        15
+Criticism and Swedish migration agency’s own quality reports        16
+Interpretation, practicalities and trust        16
+Design politics        17
+Service design in design research        17
+The role of design research artefacts        19
+UI and accessibility        20
+Open, transparent, accessible governmental data        22
+Methods        23
+Action research, participation and shadowing        23
+Interviews        23
+Prototyping        24
+Design principles        24
+Benchmarking        24
+User testing        25
+Usability evaluation        25
+Service blueprints        25
+Design process        26
+Exploration        26
+Desktop research about migration law and processes in Sweden        26
+Participatory research        27
+Engaging in Swedish Development Partner’s “language café” activity        27
+Visiting Kontrapunkt        28
+Taking introductory classes in migration law        29
+Structured and unstructured interviews        30
+Interview with SMA        30
+Interview with Swedish Development Partner        31
+Interview with Henrik Dalin, design lead IBM Interactive Experience        32
+Benchmarking Swedish migration agency’s internet services        33
+Migrationsverket.se        33
+Lifos        34
+Setelin        36
+Open data initiatives        38
+Information about Sweden-website        38
+Design trends and efforts from the tech community        39
+Information platforms        39
+Communication/Networking tools        40
+Translation aids        41
+Ideation        42
+Design principles        42
+Service blueprint        43
+Opportunities and initial concepts        43
+Direct translation as control mechanism for caseworker        43
+Icon book for asylum interview        45
+Better search of country information and decision guiding documents        45
+Decided direction of continued design work        46
+Prototype        47
+Translation service        47
+Structure        48
+Interface        49
+Evaluation        51
+Results from first tests        51
+Prototype iteration        52
+Final concept        53
+Discussion        56
+Take aways from design process        58
+Conclusion        59
+Appendix        61
+Prototype and code        61
+Transcript of interview with SMA caseworker (Swedish)        61
+References        66
+Printed sources        66
+Internet sources        67
+Laws        70
+Radio, tv and film        71
+Interviews, observations and lectures        71
+
+
+________________
+
+
+Figure list
+Figure 1: Page from “We traveled here”
+	31
+	Figure 2: Screenshots from the “Virtual Volunteer” app
+	32
+	Figure 3: Screenshots from Migrationsverket.se and the language select options.
+	34
+	Figure 4: Screenshot from Lifos main page
+	35
+	Figure 5: Screenshot from Lifos detailed search
+	35
+	Figure 6: Setelin start page
+	37
+	Figure 7: Screenshots from “Open data” page
+	38
+	Figure 8: The ‘New in Sweden’ section at Information om Sverige website
+	39
+	Figure 9: The ICOON for refugees book and app
+	42
+	Figure 10: Design principles
+	42
+	Figure 11: Simple service map
+	43
+	Figure 12: Illustration of keyword translation concept
+	44
+	Figure 13: Translation of Lifos documents
+	46
+	Figure 14: Program suite overview
+	48
+	Figure 15: Example of console log messages from crawler
+	49
+	Figure 16: Stored data hierarchy example
+	49
+	Figure 17: First wireframe of the client search interface
+	50
+	Figure 18: Client page prototype
+	50
+	Figure 19: Comparison of Lifos detailed search and simplified search
+	51
+	Figure 20: Wireframe of final design
+	53
+	Figure 21: List-view wireframe
+	54
+	Figure 22: Search suggestions
+	55
+	
+
+________________
+
+
+Acronyms
+NGO
+	Non governmental organisation
+	SMA
+	Swedish Migration Agency
+	SDP
+	Swedish Development Partner
+	________________
+
+
+Introduction
+The right to asylum is a human right. ("Everyone has the right to seek and to enjoy in other countries asylum from persecution." - The Universal Declaration of Human Rights, UN, 1948) How the persecution is supposed to be evaluated however is quite complex. A work like I propose would strive to give some humble contribution to this evaluation process. Not only that, using interaction design methods together with social-, language- and cultural studies bring in knowledge about a group of people that is mostly unrecognised in the technology industry that we so often limit our design work to.
+
+
+Refugees seeking asylum in Sweden needs to have his/her refugee status evaluated by a caseworker. The asylum seeker is called for an interview with the case worker and whether the refugee status is accepted or not accepted is largely based on this. If need for protection is deemed to be proven the asylum seeker is granted asylum in Sweden. The evaluation largely builds upon the refugee status evaluation interview and this situation often needs an interpreter. Communication is more often than not quite difficult.
+There are two large problems with the Swedish refugee status evaluation process. (1) It is not fast enough: because of high demand or other limitations the waiting time is directly hazardous for refugee seekers and delay their ability to support themselves. (2) The evaluation is mainly grounded in a very complex interview in which small nuances in interpretation can have large consequences on the final decision.
+Deliminations
+As stated above it is my intention to explore the situation and process of the evaluation interview. This because of a couple reasons. (a) The refugee status evaluation interview is where a case is started. (b) In addition to this it is one of few times when the asylum seeker meets their case worker. (c) Because the situation often demands an interpreter to be present the communication can be complex. (d) Also there is a opposing nature in this situation; one side (the asylum seeker) tasked with proving their need for asylum and the other side (the caseworker / Swedish Migration Agency) trying to evaluate if it is true or not, i.e. trying to disprove the story told by the asylum seeker.
+My focus is to create a design with high usability that is tailored to the specific situation. The experiential quality in the interview situation is taken to be trust between stakeholders. Therefore a positive design result would be one that increase trust between the parties.
+The design should not take focus away from the interview. It should enhance the meeting between the reefuge and the handler, increase communication and understanding, not deduct from that experience. This might limit how much impact such a tool might make. This is also to do with the ethical implications of introducing any tool that could potentially influence the outcome. Furthermore, the fact that many of the main stakeholders suffer some form of trauma must be well understood when conducting any participatory research. Regardless, this perspective must be accounted for in the whole work process including the finished result.
+Also to be aware of is the fact that going through the refugee evaluation process takes time and in this time these individual will often experience more stress and anxiety. This is both a difficulty for the research as it is a subject for it. This fact makes it very complicated and being very careful is written on the wall. It is to note that the main difficulty needed to overcome in interviews with stakeholder share many similarities with the design situation.
+Design process overview
+The design process model will be arranged in three main parts; the discovery phase, the design phase and the delivery phase. The discovery phase is preparation of experiments, contact creation, preliminary interviews and finding some first design direction.
+After that the design phase take over. This is where I do more extensive field work, interviews and other studies to ground my current design direction. I will then use prototyping together with other forms of testing to validate the result. This may, or may not, generate new directions and reveal new opportunities which will be handled in another iteration of the design phase. This is repeated as many times as seem appropriate.
+The last stage is the delivery phase. In this I will bring together the learnings made from the design phase, analyse the result and identify future design directions within the design space.
+The design phase of the work is a quick but iterative process, it will therefore take up most of the time. To keep track of where I am in the project I will write a progress report or reflection each week. This can be used both by me alone to keep track of where I am in the iterative design process. It can also be used in the meetings with my supervisor to communicate and get feedback on current design efforts and methods.
+Goals and aims
+With this work I want to do two things: (1) explore the context/situation of the refugee status evaluation interview using interaction design methods (see below) to reveal specific problems and opportunities, in the beginning focusing on–but not presumptuously limiting it to–accuracy in interpretation / the understanding between the asylum seeker and the case worker. I will then (2) design tools for overcoming these problem / taking advantage of these opportunities.
+
+
+________________
+
+
+Background
+Global refugee situation and its effect on Swedish migration policies
+The Swedish process for applying and being granted asylum is complex. In recent years, 2015-2016 especially, the number of people applying for asylum in EU countries has gone up markedly. (Eurostat, 2017) 2015 statistics from UNHCR show 65 million people displaced by war and persecution, the highest numbers ever recorded. This means that globally 1 in every 113 people "...is now either a refugee, an asylum-seeker or internally displaced". (UN News Center, 2016) More than 50% of all refugees comes from only three countries: Syria, Afghanistan and Somalia but asylum applications in EU come from Syria, Afghanistan and Iraq. (UNHCR, 2016) (Eurostat Press Office, 2016) 2015 also saw European Union register 1.2 million first time asylum seekers, double the year before. From this 156 110 asylum applications were registered in Sweden. (Eurostat Press Office, 2016)
+This has strained the european countries ability to process asylum applications. Swedish Migration Agency's (from here on called SMA) own quality report confirms that the average waiting time increased from 237 days 2015 to 500 days 2016. (Migrationsverket, 2017(1)) This increase in asylum applications and wait times (and–I think it's fair to say–together with national political pressure to decrease immigration overall) led to a new law regarding accepting asylum applications. From the 24 of November 2015 the new law changed the previous praxis of granting permanent residence permit to people with refugee status or subsidiary protection status to a temporary residence permit.(SFS 2017123) The new law also severely limits the possibility for family reunification. (Migrationsinfo, 2017)
+
+
+The 12th of November 2015 Sweden starts a temporary internal border control and the 4th of January 2016 Sweden and Denmark have both control of valid identification as well as internal border control. (Øresundsinstituttet, 2017) Just like the new law these actions are temporary. The new law is only valid for 3 years and the id- and border control must be renewed every six months. (SFS 2017123)(SFS 20151073) There is shown to be an 88% decrease of first time asylum applicants in Sweden between the third quarter 2015 and the third quarter 2016. (Eurostat, 2017) These numbers reflect the increased difficulty in moving inside the European Union countries. (Migrationsinfo, 2016)
+Even though the number of asylum applications has gone down from 2015 the waiting times have spiked. The temporary residence permits for people with subsidiary protection status will also need to be renewed every 13 months. SMA currently has taken no decision on to what extent these cases will need to be re-reviewed. (Interview with SMA case worker, 2017) Regardless of this coming re-evaluation process, the SMA is under a heavy workload and the slow process of getting even a temporary residence permit affect the asylum seekers mental health and well-being. Especially amongst children and young people coming to Sweden on their own. (SVT Nyheter, 2016)
+
+
+A young person fleeing from war and persecution, have traveled through Europe under harsh conditions, come to the final destination just to be meet by a extremely slow bureaucratic process. Often this process takes years and even if the result is residence permit this is temporary. The person is again requested to renew their application every 13 months. The evaluation needs to achieve legal certainty and therefore the processing takes time. But the process create so much uncertainty that mental health problems are triggered, if not also created. Case workers at SMA are also affected by a prolonged process, and SMAs own report show that many of them say that they have been exposed to some form of pressure to grant/deny asylum. (Migrationsverket, 2016)
+
+
+________________
+
+
+Theory
+Swedish migration law
+There are three main instances in Sweden that make rulings in migration cases. Swedish migration agency, the migration court and the higher migration court. (Adenfelt, 2016, p.40) A result from SMA can be appealed to migration court. Rulings by the migration court can be appealed to the higher migration court but only if the specific case is granted a review permit. The higher migration court’s main task is to guide the lower migration courts and the SMA in their decisions. Only cases that which rulings may be deemed as possible guiding is granted a review permit. (Stern & Wikström, 2016, p.26)
+        Since the higher migration court only help SMA by guiding rulings there has been a lack of centralised country information available for SMA’s usage. As an effort to create a consistent and more effective process the SMA has developed a number of ‘legal positions’ which are documents with internal guidance relating to specific questions. These are however not formally legal sources and even though a case worker that depart from this guidance would possibly be questioned the guidings themself are informal and created internally within the institution that follow them. (Stern & Wikström, 2016, p.46) This can be said to be problematic and at worst create arbitrary evaluations. They have on occasion according to Stern & Wikström even been used by the migration court. This grant them a legal position which they do not actually possess. (Stern & Wikström, 2016, p.47)
+
+The institution that handles all cases are the SMA. The SMA have several goals, among these are a high legal quality in its evaluations, providing a service that meets the different stakeholders demands and counter any abuse of the rules it upholds. (Migrationsverket, 2017(1), p.14)
+The process of getting asylum in Sweden
+The right for asylum is covered by Swedish law "Utlänningslagen", the Aliens Act, chapter 4 and 5. Basically anyone that is given refugee status or subsidiary protection status will be granted asylum. (SFS 2005:716) This in accordance with article 14 from the Universal Declaration of Human Rights, 1948 (UN, 1948), expanded in the Geneva Convention 1951 Relating to the Status of Refugees. (UNHCR, 1967)
+
+Anyone can apply for asylum by handing in their application to a SMA office or border police. At their website SMA states that it is not possible to apply before coming to Sweden. After that the seeker is called to a SMA office, registered, photographed and fingerprints are taken. (Migrationsverket, 2017 (2))
+        After this a first meeting is held with the applicant, where the process is explained, a public counsel is presented and, if underage or under other special circumstances, a custodian is appointed. (Interview with SMA worker, 2017)
+The evaluation
+In Swedish asylum evaluations it is up to the asylum seeker to prove that they are in need of protection from persecution. (Stern & Wikström, 2016, p.170) In sweden the evidence is presented and a complete story is written down in an evaluation interview. (Migrationsverket, 2017(2)) This is then collected in a document that is the foundation for the individual case. The document is presented to the applicant and the public counsel and it is read through and discussed to find any incorrect information. When the document is accepted the case evaluation is started by the caseworker. (Asylrättstudenterna - Introduction to asylum and migration law, 2017)
+        The result of an asylum case evaluation depends on three main things. (1) The evidence presented by the applicant and the applicant's story. This is the document created from the evaluation interview. (2) Available country information, previous court rulings, and other official documents. (3) A believability analysis, i.e. how likely the applicants story is. (Stern & Wikström, 2016)
+Criticism and Swedish migration agency’s own quality reports
+The time between application, evaluation and decision have all increased markedly in 2016 according to SMA’s own quality assessment. (Migrationsverket, 2017(1)) Several sources points out that the contact between the asylum seeker and SMA is limited to a few occasions. (Adenfelt, 2016, s.64) Swedish radio describe poorly explained decisions and interview rooms with glass-walls out towards the public areas. (SR - Kaliber, 2017)
+        Furthermore the same radio show also conduct interviews relating to SMA’s quality assessment report. It reinforce what has been noted earlier, that long waiting times before the interview creates large amounts of stress. It also reveal two problematic aspects about the evaluation document created from the interview, (1) the document is not necessarily written by the attending caseworker performing the interview, and (2) it seems questionable that country information is constantly included in the document. (SR - Kaliber, 2017)
+Interpretation, practicalities and trust
+It has been shown by Gartley & Due (2016) that in therapeutic conversations refugees prioritised practicalities such as getting answer to housing issues and other practical questions before trust and a deeper connection could be established. That a person that is worried about their housing situation should have questions around this or focus on this should come to no one’s surprise but in terms of the specific needs from refugees it raises a good point. Having unclear or shifting living conditions or otherwise having difficult living conditions with unclear terms create uncertainty and worries that affect the person's ability to connect with helpers and can disrupt that person's ability to connect to others as well.
+        Furthermore, the same study showed several problems with using interpreters. It was common for refugees to show a heightened fear that an interpreter would break the confidentiality agreement. This would again impact the refugees ability to speak freely. (Gartley & Due, 2016)
+Design politics
+In his 2016 doctoral thesis, Keshavarz discuss the type of extraordinary emergency our society seem to live through from time to time. One type of such emergency would be the different ongoing conflicts in Syria and Afghanistan for example, leading to the displacement of millions  of people. Keshavarz says that “While they may look exceptional or temporary for those in power and in privileged positions, they are permanent conditions for those who, despite struggles and hope, have lost their histories and are thus deprived of the possibility of action, for distributing their knowledge, for making their politics visible.” For Keshavarz, a designer’s work is tightly coupled to, not only a result of, either design or politics. “The question of whose problems and issues are represented, and how certain things, moments, activities, encounters, beings and interactions come to be represented and experienced as problems, as subject for possible change, facilitation or improvements by design, often falls outside of the agenda of these approaches to design.” (Keshavarz, 2016, p.359)
+        He suggest  a type of positional recognition to help designers see beyond the typical complexities and problems. This positional recognition is an introspective activity for the designer, an inclusion of one’s personal positions, norms and values and explicitly bring this into the design process. (Keshavarz, 2016, p.363)
+Service design in design research
+Forlizzi & Zimmerman argues 2013 for the inclusion of service design in interaction design processes. A service is described as a “[...] set of choreographed interactions between a customer and service provider.” However, they argue that service design, unlike interaction design allow the designer to identify opportunities in many different touch-points and with taking into consideration multiple different stakeholders. (Forlizzi & Zimmerman, 2013, p.2)
+
+
+“[...] Service designers work to find solutions at the intersection of the service provider’s and the customer’s needs.” (Forlizzi & Zimmerman, 2013, p.3)
+
+
+For Forlizzi & Zimmerman, service design has several benefits over interaction design. Most interesting for this work is the fact that it explicitly is systematic and holistically and the ability to within service design take into consideration all form of value creating opportunities. (Forlizzi & Zimmerman, 2013, p.2) For example using a service can generate data that can provide a better service which generates even more data.
+One specific example they give where service design can be of great benefit is designing for societal change. (Forlizzi & Zimmerman, 2013, p.9) Again it is the focus on explicit systems that make service design better suited for such a project since it can take into consideration not only the specific user’s need but also the policy making and the economic aspects, the societal influences. 
+
+
+The limitations with service design are also brought up, especially the type of framing used in service design with customer and provider. That this is a complex issue that designers need to be aware of–and to some degree even question–is acknowledged. (Forlizzi & Zimmerman, 2013, p.10) But the extent of this limitation is not fully explored.
+Another difficulty with Forlizzi & Zimmerman is that working holistically is practically impossible. According to Stickdorn & Schneider (2011) “Genuinely working in a holistic way is an illusion, it is simply impossible to consider every aspect of a service. However, the intention should always be to see the wider context in which a service process takes place.” (Stickdorn & Schneider, 2011, p.44) As a designer it is necessary to create deliminations, maybe even to a larger extent when working holistically. Again the problem of the designers own position, the designers background, inheritance and political and cultural positions informs these deliminations. 
+The role of design research artefacts
+This work strived to include a large number of external partners. To an extent it has been somewhat successful in the earlier stages but as we shall see below a shift in approach had to be adopted after the exploration phase of the design work.
+In an article by Jon Kolko he describe the act of design work as a ‘synthesis’, a sort of fusion of multiple different aspects and perspectives into a cohesive whole. This, he writes, “[...] indicates a push towards organisation, reduction and clarity.” (Kolko, 2010) This “synthesis” is then taken to found the basis of the actual design.
+
+
+In a work like this, where the aim is to produce design research, to create and document a design synthesis if you will, the transparency of the work performed goes without saying. However, Kolke goes on to describe the difficulties with this when it comes to client work, non-academic work. When working with partners or clients outside of the design context he describe a problem of implicit practice of design research. There exists a real danger that this part of the design process is lacking a “artifact procedural trail” and that the client lack understanding of the decisions that created the final design or concept. As a result this part of the process is seldom formally accounted for since it is not understood by the client because the connection between synthesis and the deliverables are not made explicit. (Kolko, 2010)
+         Kolko’s article is arguing for making these activities explicit. Again, this is obvious in academic work. But this idea about making synthesis tangible for clients is also interesting in earlier stages, even before clients or partners, especially when going outside of the design context to find partners. The idea here is that explicit synthesis, tangible design research, is a good tool for communicating design goals in a non designer context. 
+
+
+A design research artefact is then some type of tangible result from a design method executed to explore an area of interest. For example, a prototype, a mind-map or a wall of post-its. This will in turn be used to communicate or–to an extent–convince participation for further design work. Some form of preliminary artefact should be presented to also give example of why design research should be performed.
+UI and accessibility
+Blair-Early & Zender (2008) talk about the vague but often used terms of easy-to-use and intuitive in designing user interfaces noting that an “intuitive interface” often is equal to familiarity. (Blair-Early & Zender, 2008, p.86) Familiarity can be described as using an existing and recognised design pattern so as to grant users affordance and understanding of the interface without having to teach them how it works.
+This idea about familiarity is correctly seen as problematic by Blair-Early & Zender since it do not lend well to innovation practises or even progress for that matter. Instead they identify some core principles when designing interfaces. By analysing content type, content delivery strategy, user intention and content structure they came up with ten design principles for designing interfaces. Obvious start, clear reverse, consistent logic, observing conventions, give feedback to user interaction, create clear reference points (landmarks), observe proximity of interface elements and content, adapt interface to useage, provide help and maximize content. (Blair-Early & Zender, 2008, p.99)
+
+
+Of these the odd one out is the principle of adapting the interface to the usage. This is not explained as responsive or adaptive design where in a webpage or interface is built to handle multiple devices and to be able to provide the same content or device specific content. This principle is about adapting the interface to their individual usage. It should perhaps have been explained as a customisation feature, but even then its place among the other principles seems a bit off.
+
+
+Norman (2013) list his seven stages of an action. These are defined as seven questions a user may have about a product:
+“1. What do I want to accomplish?
+2. What are the alternative action sequences?
+3. What action can I do now?
+4. How do I do it?
+5. What happened?
+6. What does it mean?
+7. Is it okay? Have I accomplished my goal?” (Norman, 2013, p.71)
+
+
+These questions then lead Norman to create “seven fundamental principles of design”. Discoverability, feedback, conceptual model, affordances, signifiers, mappings and constraints. (Norman, 2013, p.72)
+
+
+Miraz et. al (2016) discuss the difficulties with user interface design in a multilingual environment or use case. They list some common usability problems that can arise. Some of the more relevant problems are text and graphics alignment, automatic language selection based on ip address, cultural dependent significance of color, automated translation and difficult to translate abbreviations. (Miraz et. al, 2016, p.433)
+
+
+Cooper (2014) go through different usability areas. Four areas are looked at; learnability, customizability, localisation, and accessibility. Every area needs to be addressed in a specific interface design and Cooper bring up a lot of helpful guidelines when working within these areas. (Cooper, 2014)
+Different digital methods for retrieving data are also brought up by Cooper (2014). Positional retrieval is when a user remember the “place” in the file structure where the file was left. Identity retrieval is when a file is retrieved by name. The third one is by Cooper more in-depth discussed and it is the attribute retrieval system. This finds files based on not name or place but rather what type of meaningful properties it possess. (Cooper, 2014)
+Open, transparent, accessible governmental data
+There are numerous ways in which open data and access to governmental information can benefit society and its citizens as outlined by Ruijer et. al. (2017) Access to information can give citizens better understanding about governmental processes and in effect make them more able to contribute to these processes. In addition to more active participating citizens open data can stimulate innovation and improve services. (Ruijer et. al, 2017. p. 45)
+Ruijer et. al argue that the current open data platforms often show a common shortcoming in that they focus on data that are being asked for, not data that are needed to stimulate democratic processes. Another problem is that they are not sensitive to different roles or purposes users of the service can have. Ruijer et. al continue with presenting general requirements for a open data platform that include the usage context, the user groups different goals. (Ruijer et. al, 2017. p. 45)
+
+
+________________
+
+
+Methods
+Action research, participation and shadowing
+In the 2005 article “Ethics in the making” Bodil Jönsson and others discuss the different aspects of ethics while doing design work. Among other things they talk about the “friction” that is created by using cultural probes. This “friction” (which is taken to be an expression about the provocative nature of a probe, that it provokes sometimes unexpected reactions and emotions) enable the researcher to take on new perspectives not otherwise conceived. (Jönsson et. al 2005)
+They go on to talk about several other methods for design research that are useful when designing for people with disabilities or are otherwise not belonging to the main group of users. One specific type of method that is mentioned is “action research”. It is described as being “[...] practitioner but a reflective one.” (Jönsson et. al 2005)
+
+
+One type of activity that is related to this is shadowing. As with participatory research methods shadowing do not completely hide the designer but it takes a more observational approach and is possible more interested in the people performing the task rather than engaging with the task. (Stickdorn & Schneider, 2011, p.157)
+Interviews
+Muratowski (2016) give suggestions on data collection in ethnographic studies. Among these are structured and unstructured interviews and how to plan and conduct them.
+
+
+Stickdorn & Schneider brings up another type of interview, the contextual interview. This is done in the context which is being explored or researched. This allows the interviewee to remember things and reflect upon specific details more easily. (Stickdorn & Schneider, 2011, p.162)
+Prototyping
+Because of the arguments in the theory section about design research artefacts and the importance of making them explicit, the prototypes created will have three main purposes. First, to communicate and engage users and partners so that a fair exploration of the design space can be completed. Secondly, to validate findings by have a tangible result to discuss and thirdly, to conduct user tests and evaluate the designs effectiveness and value.
+
+
+Löwgren (2007) specifies the goal of using a prototype as the ability “[...] for empirical evaluation with the intention to study the qualities of the new design in use.”
+
+
+Menold et al. (2017) greatly expands on the different possibilities with prototyping. They argue for the need of a structured framework around this activity, with three different frames listed as viability, feasibility and desirability. (Menold et al., 2017, p.91)
+Design principles
+To focus my concept development I created three design principles for the design (below). This helped discussion around different concepts and how I evaluated the final concept.
+Benchmarking
+I also performed qualitative research with a very limited scope. Going from Muratovski’s case studies (2017) the cases looked at focused on only three questions; what type of design is it, how was it perceived to benefit refugees and how did it benefit refugees.
+User testing
+User testing will be based mainly on the questions brought up by Cooper et. al, namely “naming”, “organisation”, “discoverability” and “effectiveness”. (2014, p.140) This will be followed by a formative evaluation to understand what dosen’t work and evolve the design accordingly. (Cooper et. al, 2014, p. 141)
+Usability evaluation
+A usability testing framework based on different loosely coupled resources together with a strong notion of the qualitative aspects of the testing is developed and argued by Woolrych et. al (2011).
+Service blueprints
+These will be used to get a good overview over the asylum process and to better define the different problems. The service blueprint is used in the exploratory phase of the work and then again in the idea generating phase. (Stickdorn & Schneider, 2011)
+
+
+________________
+
+
+Design process
+Exploration
+This phase was about exploring the different opportunities that exists in the design space. I performed desktop research about migration law, participated in several related activities, interviewed people active in migration and asylum related work and performed analysis on services and processes targeting asylum seekers and refugees. 
+Desktop research about migration law and processes in Sweden
+While most of the material in this section already been presented in the theory section some results are worth pointing out. The security and justness of the related formal and legal processes are hard to evaluate. It is possible (and likely) that there have been occasions where the asylum process legality been compromised. (Stern & Wikström, 2016)
+
+
+In a documentary from 2016 Löfgren & Selo follows the young boy Ahmad as he goes through the Swedish asylum process. Again what is seen is long waiting times, few meetings with SMA, an unclear process, unclear conditions for getting asylum  and depression and distrust as a result. (SVT - Löfgren & Selo, 2016)
+
+
+Together with the reporting from the radio program “Kaliber” which highlighted an uncertainty in what documents and information are included in an asylum evaluation document it would not be far fetched to believe that these factors could affect how the applicant perceives the justness of the process.
+Participatory research
+Engaging in Swedish Development Partner’s “language café” activity
+Swedish development Partner (SDP) is a Swedish-based NGO working to aid people in need. In Sweden the arrange several activities for recently arrived refugees, asylum applicants in waiting for result and single arriving children.
+The “language café” is one of these activities. The aim is to help first time Swedish speakers to practise through dialogue in a relaxed way. Volunteers sit down with a group of Swedish beginner speakers and talk around a subject, selected by either the volunteer or the group members. Every session is around one hour and it is an open activity where anyone can come and join. Some Swedish speaking skills are necessary to get the most out of the sessions however. 
+
+
+It is a very natural dialogue driven way of practising a language and the social aspect of it seems to be quite important. When the volunteer and the group’s members connect through dialogue and trust is established, it was observed that the second half of the sessions led to more focus on the volunteer answering questions about Swedish society and public institutions processes.
+The rate of returning participants was according to volunteers and staff quite high and several participants and volunteers knew each other. The event was held two days a week and even though volunteers shifted around in terms of what days they could be there and there was no official scheduling of volunteers it seemed structured and continuous. Continuous in the way that participants could come and get continuous connection with the same native speakers from week to week.
+
+
+The volunteers reasons for volunteering was varied; some said that they just wanted to help, some had an interest in languages, some were student studying relevant subjects which benefitted from real world experience/interactions and others found that the discussions and interactions was the meaningful part for them.
+
+
+Visiting Kontrapunkt
+Kontrapunkt is a local independent NGO. They aim to work for human and asylum rights, social change and on a local scale create alternative social structures they want to see replicated in society. They do this by among other things having open activities such as “People’s kitchen” ( Sv.: “Folkköket”), a free meal for anybody who want. They arrange asylum help sessions where people applying for asylum can go and get answer to questions around the process and what other legal aids are available. They also have open nights where they open their locals for homeless people and a free shop where every item is free. They also have a varied range of workshop activities and open workspaces for its members. (Kontrapunkt volunteer introductory seminar, 2017)
+Even though research through observation at the asylum help sessions were denied, citing ethical and trust establishing reasons, a couple of interesting notes came from the visit. Firstly food was expressed to be used very deliberately as a “means of activism”. The possibility with food was that it could act as a community building element and stimulate meetings between different people with different social background and standing. (Kontrapunkt volunteer introductory seminar, 2017)
+
+
+A second note was their usage of a local alternative currency, called “Carma Capital” (Sv.: “Karma Kapital”). Whenever Kontrapunkt arrange club nights with music, dancing and alcoholic beverages they way to purchase drinks are done by first purchasing an amount of the local currency. As of writing this system has been limited in its usage to these events but the expressed goal was to connect this currency to the rest of the organisations activities. For example helping out in the kitchen could give you some “Carma Capital”. (Kontrapunkt volunteer introductory seminar, 2017)
+The complexities of working with a local currency and the way such a system can influence and inspire social change is outside of the scope of this thesis. In the following section “Design process - Ideation” I will shortly discuss a concept around this and how it could benefit asylum applicants but this ultimately lies outside the scope and resource availability for a proper development and is discarded.
+
+
+Taking introductory classes in migration law
+The “Introduction to asylum and migration law” seminars were arranged by a student organisation called The Asylum Law Students (Sv. Asylrättstudenterna). Practising lawyers working with asylum and migration cases held the lectures on migration law terms and laws, european migration laws, the definition of refugees and much more. (Asylrättstudenterna - Introduction to asylum and migration law, 2017) Most of the legal aspects and how the processes work has already been presented in the background and theory sections. However, some very interesting reflection were made that I want to bring up.
+
+
+The first reflection was about the constant stream of questions from clients about their cases. “We can spend 8h a day about our clients cases and if any progress has been made.” (Sait Umdi, Cityadvokaterna Malmö. 9/3-17) Since the evaluation can take up to half a year from the time the interview is completed practising lawyers in the field gets large amount of questions regarding to clients cases. The contact between SMA and the applicant in the asylum evaluation process where once again confirmed to be limited to a few occasions.
+The reflections expressed in the ‘Introduction to migration law’-seminars together with the information received from interviews and desktop research, clearly indicates that the contact between SMA and the asylum applicants is lacking, either in its frequency, understandability, trust or contactability.
+
+
+Another thing explicitly brought up was the interview situation itself and how hard it can be to adequately express their story. If a person is untrained in verbally expressing themselves then such a situation is unlikely to get a clear view over why that person need protection and what evidence there is for this. (Asylrättstudenterna - Introduction to asylum and migration law, 2017)
+Additionally the person can possibly be traumatized, suffer from depression, have a inclination to not trust interpreters or have no trust in the evaluation process itself. These factors combined surely show a great danger of misinterpretation or misrepresentation of evidence.
+
+
+Thirdly, the most common reason to deny asylum is that there is an option for internal refuge. This means that there are regions in the country that is being fleed that is safe for the applicant. Furthermore, most applicants that receive a negative decision appeal this. Even though in some cases there is no real possibility to have the decision reversed the applicants naturally want to explore every option there is. (Asylrättstudenterna - Introduction to asylum and migration law, 2017)
+Structured and unstructured interviews
+Interview with SMA
+To understand more about the interview environment, the work process and the perspectives from a SMA case worker’s perspective I conducted a structured interview with a person working at the south region office. Most of the questions discussed in this interview have already been brought up earlier in the text but a discussion about what documents that could be presented as evidence by the applicant gave some interesting reflections. (Interview with SMA caseworker, 2017)
+When the asylum applicant conduct their interview they can present any information they seem fit to prove their need for protection. For example a written letter from a teacher. However, since every case are evaluated individually the amount of evidence ascribed to these documents are also done on an individual basis. (Interview with SMA caseworker, 2017) This, coupled with the low frequency of meetings between case worker and applicant, would only make it seem naturally for a caseworker to overall give informal documents a relative weak evidence importance.
+
+
+Interview with Swedish Development Partner
+In addition to talking to SMA I also wanted to engage NGO’s. I interviewed Kornelia Tofani at SDP about their different activities but focused on their ‘Children in waiting’ activity. This is a group activity for parents and their children where they are separated into a parent’s group and a children's group. They then discuss events, thoughts and feelings in order to give support and help these people to cope with their situation. (Interview with SDP Tofani, 2017)
+
+
+One season of the project also created a book called “We traveled here” (Sv. “Vi reste hit”). This small book collect two stories told and discussed at the meetings but they are fragments and made up of several different real stories. The end result is something very interesting, a therapeutic way of telling a personal story while at the same creating a feeling of that there are others that have gone through similar experiences. (BIV, 2012)
+
+
+ 20170506_164845.jpg 
+
+Figure X: Page from “We traveled here”
+
+
+We also talked about the general working environment in an NGO, cooperation between different organisations, ability to influence processes regarding to migration, about how long waiting times can affect the legal certainty of the process and the importance of not being isolated and alone. (Interview with SDP Tofani, 2017)
+
+
+Interview with Henrik Dalin, design lead IBM Interactive Experience 
+2016 Dalin took initiative, in cooperation with the Swedish Red Cross, to create a common information platform for all Swedish Red Cross activities. The end user product is an app called “Virtual Volunteer” that present helpful information, maps, activities and locations in multiple different languages.It is aimed at both volunteers working in the field and refugees or other individuals who are in need of help and support. It is currently being rolled out in Sweden after a successful initial period in Greece. (Interview with Dalin, 2017)
+
+
+ Screen Shot 2017-05-06 at 20.33.46.png 
+ Screen Shot 2017-05-06 at 20.33.57.png 
+ Screen Shot 2017-05-06 at 20.34.23.png 
+
+Figure X: Screenshots from the “Virtual Volunteer” app
+
+
+The interview was varied and unstructured but the focus was to understand better how it was to work as a designer in a NGO/refugee context and how much active user research that was conducted. In the development of “Virtual Volunteer” the contact with the user group was handled by the Red Cross and Dalin and his team took care of the technical aspects of development. (Interview with Dalin, 2017)
+We also discussed some of my initial concepts for designs. One important point Dalin made was that a fundamental part of a design concept that is meant to support people in a specific situation is that it do this before, under and after the supported situation. (Interview with Dalin, 2017) It is much less helpful to have a tool that is contextually bound to a specific situation and that the applicant cannot use or get use to beforehand, than a service that they can explore and use under all different stages of the process.
+
+
+Discussion touch upon the difficulty in that the NGO’s and technology/design industry have very different areas of expertise. NGO’s often lack the necessary competencies or/and funding to lead innovation projects (with exceptions of course.) and the tech/design industry have a tendency to simplify complex socio-economic and legislational problems. (Interview with Dalin, 2017)
+Cooperation between several different NGOs in innovation development projects was also said to be difficult. (Interview with Dalin, 2017) Because of different goals, internal and external political issues, competing in funding, different ideologies, etc. While not explicitly discussed in the interview, the Red Cross for example, have several types of unified information platforms. Refugee Buddy (http://www.rodekruis.nl/refugeebuddy) and Refugee App (http://refugeeaidapp.com/) are a couple of examples of information platforms/portals with exactly the same goals and target users as Virtual Volunteer.
+Benchmarking Swedish migration agency’s internet services
+SMA have several sites to publish information and they do this in several different languages. 
+
+
+Migrationsverket.se
+This is the main site for the SMA. Here a person can apply for several different permits and visas, check the progress of their case and book a meeting with a caseworker. They also publish news and information about the different processes. The site is available in many different languages but the pages or information accessible in a specific language do vary. For example, Arabic and Russian only have specific information pages about certain areas, and even though the areas are the same the amount of information on them differ considerably. English have a complete translation except for the “Other operators” section, which is only available in Swedish. (Migrationsverket, 2017(3))
+
+
+ Screen Shot 2017-05-06 at 22.02.13.png 
+ Screen Shot 2017-05-06 at 22.02.51.png 
+
+Figure X: Screenshots from Migrationsverket.se and the language select options.
+
+
+Lifos
+Lifos is SMA’s own database on legal data, country information and process guiding documents. This site is very important for asylum cases because it contains SMA’s internally created process guiding documents, so called “legal positions” (Sv. “Rättsliga ställningstaganden). Most data in Lifos is public but it do also include some restricted documents.
+
+
+ Screen Shot 2017-05-06 at 23.28.47.png 
+
+Figure X: Screenshot from Lifos main page
+
+
+There is a detailed search functionality where a user can search with a lot of different parameters. Text search on title and descriptions, logic functionality (exclude words), keywords- country-  and source filtering, and date from and to.
+
+
+ Screen Shot 2017-05-06 at 23.29.43.png 
+
+Figure X: Screenshot from Lifos detailed search. The right hand side list shows different tags that are the most frequent used. The top keyword “Hela databasen” reveals that the whole database contains 12571 entries (7 may 2017).
+
+
+Neither the site nor the documents presented on the site are translated. Many documents are written in Swedish only, some are only available in English and a few are written in German. There is no ‘help’ or ‘about’ that explains the content. It seems far fetched that this site is usable by a non-swedish speaker.
+Some summaries are removed when the information gets outdated and replaced. This is very unfortunate. For example in an appeal information that has changed might need to be referred to. It’s then made needlessly hard for the applicant and their counsel to retrieve the information that was previously there. 
+There is limited or no metadata accessible when it comes to popular searches, newly created tags, removal or replacement of documents etc. This is probably available internally but Lifos do not have a publicly available api to search through.
+
+
+Basic usability problems are also present, for example only ten results on each page are possible and no alternative layout exist. The keywords can be unclear and duplicates exist. The search logic function interface (“Utan ord i titeln”/”Exclude word” and “Ord i titeln”/”Include word”) is needlessly separated into several input fields breaking against current normal search practises of having logic functions connected to + (plus-sign) and - (minus-sign). This contribute to the overall complexity of the whole interface.
+Since this is the main way to access these documents, the accessibility of it is an important consideration. If the documents in Lifos can affect the asylum process (which is the explicit intent with these documents) then anyone involved in the process should have equal access to them. Even if a caseworker is meant to follow these guides, and even though the public counsel will have access and understand them, an inaccessibility to these documents can still decrease trust in the process.
+
+
+Setelin
+An innovation hackathon initiative arranged by Refugee Tech, Sthlm Tech and SMA led to the creation of Setel.in, a site for easy access to many different sources of information and applications. The purpose is to have new Swedes and people currently applying for visa/citizenship/asylum to simplify their introduction to the Swedish society. This site is at the time of writing available in Swedish, English and Arabic. (Setelin, 2016)
+
+
+ Screen Shot 2017-05-07 at 00.35.26.png 
+
+Figure X: Setelin start page
+
+
+In a news post from 6th of September 2016 SMA says “Sweden first with new platform to assist migration and integration”. (Migrationsverket, 2016(2)) This is questionable in at least one way and objectively wrong in another. Setelin is an information portal site that lists links sorted in categories such as “information”, “social” and “employment”, and while the links provided are good and valid the accessibility is not. The translation of the site is limited to headlines only, i.e. the descriptions of the links are not translated. The links presented are also very limited and to varied to be of any real interest and no search functionality is present. To say that this platform “assist migration and integration” is very likely an all too strong expression.
+
+
+Setelin is also not the first (digital) platform developed that aims to better integration and migration by collecting links. It is created by volunteers with technical skills and passion for helping, without any disclaimed funding from SMA. The reason to bring all this up is not really to discuss an underdeveloped application but instead shine a light on what type of project that SMA describes to be part of “social innovation”. (Migrationsverket, 2016(2)) 
+
+
+Open data initiatives
+SMA also publish some of their data under their ‘Open data’ initiative. The data available is the same as their published statistics documents but in the form of excel spreadsheets. The data, while usable and nicely formatted, is not very accessible. It access page is only available in Swedish while the documents are in Swedish and English (not completely translated however); SMA only include the latest data sets; and there is no api from which the data can be retrieved. While the data is open and available a better data interface/api would make it accessible.
+
+
+ Screen Shot 2017-05-08 at 17.53.04.png 
+ Screen Shot 2017-05-08 at 17.52.23.png 
+
+Figure X: Screenshots from “Open data” page at migrationsverket.se (left) and example of open data excel document (right).
+
+
+Information about Sweden-website
+Website providing information and links. Not run by SMA but supported financially. Often referred to as a good source for information for anyone new to the Swedish society. It is available in ten different languages and seems completely translated. Links outside the page is however for the most part linked to Swedish or English sites. It has information sorted in categories such as ‘Learn Swedish’ and ‘Care & Health’. There is also a slightly hidden section ‘New in Sweden’ that have information material about the different laws and processes relating to migration. Unfortunately these link mostly to SMA’s own site (again only to the English or Swedish variant since SMA’s site is not completely translated) or the links are broken all together and return a 404 site. (Information om Sverige, 2017)
+
+
+ Screen Shot 2017-05-06 at 15.06.29.png 
+
+Figure X: The ‘New in Sweden’ section at Information om Sverige website. © 2016 County Administrative Board of Västra Götaland
+Design trends and efforts from the tech community
+In this section I did benchmarking on many different designs and types of concepts. The result was three categories that I deemed to be most interesting for the design process.
+
+
+Information platforms
+There have been many information platforms developed for use by refugees and volunteers. Some examples have already been presented above. The Refugee Aid app could be brought up as a positive example since it brings together several different NGO’s under one roof so to speak. Both the Red Cross and Doctors without borders for example have information published on that platform. (http://refugeeaidapp.com/)
+
+
+Gray from UNHCR Innovation brings up several problems with such platforms. The article do not discuss this category only but the problems I want to highlight are very prominent in this category. Distrust from the user base is very common and refugees tend to want information from volunteers directly. (Gray, 2016) Since information in this design space is highly volatile and prone to change this is not surprising.
+Another problem touched upon by Gray is the duplication of concepts. (Gray, 2016) Since design efforts are not coordinated but instead often stem from personal initiatives duplication is to be expected. But this lead to wasted development time and fractured information. The last consequence is ultimately contra-productive when the end goal is a collected portal for information.
+
+
+One very interesting service currently under development is a chatbot for asylum seekers. The Guardian writes about it that it’s using Facebook Messanger as the basis for its functionality: "The 20-year-old chose Facebook Messenger as a home for the latest incarnation of his robot lawyer because of accessibility. “It works with almost every device, making it accessible to over a billion people,” he said." (Guardian, 2017)
+The same developer also created the “Do Not Pay” chatbot. (http://www.donotpay.co.uk) This has helped 160000 British citizens to appeal their parking fines. (Guardian, 2017) This type of information providing is very interesting with a lot of potential for reaching out to people not willing to browse arbitrarily bureaucratic governmental websites.
+
+
+Communication/Networking tools
+Refugees welcome (http://www.refugees-welcome.net/) is an initiative to match refugees with another person that can share their apartment or in other ways can provide accommodation. This initially created a lot of attention. But as of writing the number of matches made is only 936 total world wide. The Swedish branch has matched 51 total from autumn 2015. (http://www.refugees-welcome.net/) (https://refugees-welcome.se/) 
+Gray writes about Refoodgee, an app to connect refugees and locals by cocking together. Slow updates and a small user base is again a result of coordination and lack of collaboration between the humanitarian and tech sectors. (Gray, 2016)
+
+
+Ruben Pater writes 2016 a critical post regarding the “What design can do” design competition and the tendency by the industry to push design thinking as a universal problem solver.
+"By emphasising the problem-solving capabilities of design, the WDCD Refugee Challenge supports the idea that the free market is much better at solving the world's crises than governments are. Design may be able to come up with clever products or enlightening ideas, but only governments and NGOs can provide refugees with the resources, infrastructure, and laws that are needed in the long run.” (Pater, 2016)
+He continues:
+“It is also absurd to suggest that design can come up with solutions for a crisis that is political and socio-economic at heart." (Pater, 2016)
+
+
+Translation aids
+A number of different apps are used to perform translation of phrases. These are in scope more focused than previous categories and are therefore not as susceptible to the problems raised above The access to a smartphone is (to an extent) ubiquitous and applications like Google Translate are very commonly used to translate phrases and words.
+There is also designs like the ‘ICOON For Refugees’, a book with illustrations and commonly used icons to be used by refugees and volunteers in order to facilitate communication. The project was crowdfunded and released a free app. (Amberpress, 2015)
+
+
+ icoon-for-refugees-bildwoerterbuch-01-768x1024.jpg 
+ icoon-for-refugees-free-app-android-AR-02-1-470x836.jpg 
+ icoon-for-refugees-free-app-android-AR-03-1-470x836.jpg 
+
+Figure X: The ICOON for refugees book and app. © 2015 AMBERPRESS
+
+
+The images are ordered in categories such as health, accommodation and travel. No information around adoption rate of this design or its effectiveness have been found but similar illustrative tools are used in healthcare for making preliminary diagnosis. 
+Ideation
+Design principles
+As a result of the exploration phase I created three design principles. These principles would guide my choice of concept and how to develop that concept. 
+
+
+  
+
+Figure X: Design principles
+
+
+1. Aim to increase trust in the asylum process
+2. Should support the applicant before, under and after the interview evaluation
+3. Must give any possible advantage to the applicant
+Service blueprint
+For a complete overview of the asylum process as a service I made a simple service blueprint. This is by no means the complete picture but helped the work when discussing the before, under and after design principle.
+
+
+  
+
+Figure X: Simple service map. The evaluation interview is marked out. 
+Opportunities and initial concepts
+Based on what the purpose of this work was, i.e including asylum seekers better in the asylum evaluation process to establish trust, the initial concepts that could come from this were many. There where in particular a couple of examples that I originally saw as feasible and used as examples in contact with organisations and institutions.
+
+
+Direct translation as control mechanism for caseworker
+A first concept was created with the goal of giving the case worker some sort of control mechanism to possibly identify problems in translation. The idea was to have a computer analyzing the applicants words and if specific keywords were found these were going to show up on the caseworkers monitor. If the interpreter would not mention anything related to the keyword, then either the interpreter misunderstood the applicant or the computer analysed the word in a wrong way. If the subject discussed was of a delicate type, for example homosexuality, then the caseworker could ask the interpreter to ask the question in different words to get a better and (hopefully) more trustfull understanding. 
+
+
+  
+
+Figure X: Illustration of keyword translation concept
+
+
+This was discarded because of the fact that it was meant to aid the caseworker. In discussions with NGO workers and legal guardians the issue of weighting the process was brought up. Anything or any tool that can drive decisions in a specific direction should only be made to give any possible advantage to the asylum applicant. A concept that can be used only or mainly by a SMA caseworker could be ethically very difficult to design since the use of such a tool and the initiative to act on the result of the tool would be completely up to the caseworker.
+Also from a service design perspective this concept would fail to create a better service for the service consumer. It could not create a more just process. The issue lies in the trust between interpreter and applicant that repeatedly is pointed out to lead to the applicant not revealing important personal details. The asylum applicant, the service consumer, need to present evidence for their need for protection. 
+
+
+There were also practical difficulties with developing such a tool. Access to the specific interview room, testing it with caseworkers etc.
+
+
+Icon book for asylum interview 
+This concept took a lot of inspiration from the “ICOON for refugees” book and other such concepts but would have targeted the icon set towards the interview situation. There are certain words/concepts/ideas that are hard to explain in some languages and a icon map showing these concepts could be helpful.
+
+
+This concept would have several flaws but the two most important was that it would not establish more trust since iconography also need to be interpreted and the concepts that are difficult to address with words may very well be difficult to express in abstracted icons/illustrations. Additionally this would not be useful before or after the interview situation and would thus break from my design principles.
+
+
+Better search of country information and decision guiding documents
+The third concept was aimed directly at the asylum seekers and the public counsels, volunteers and other contact people helping them. If the data in Lifos was accessible through an API a third party search functionality could be built around it that was better suited towards usages by the applicants themselves. This could be further leveraged by incorporating machine translation of the summaries so that a larger group of users could understand what the different documents were about.
+
+
+  
+
+Figure X: Translation of Lifos documents
+
+
+In addition to search functionality the concept also allows for the creation of lists. These lists can then be downloaded, stored, shared or printed. The concept should also stored summaries and documents deleted in Lifos as a secure reference (noting that they’ve been replaced of course).
+
+
+The concept was selected to be the best concept in accordance with the design guideline as defined above. It can be used before the evaluation interview to find evidence and understand the process better. In the interview a list can be handed over to the interviewer as evidence and after it will be helpful to reference if Lifos removes any of their summaries. It is firmly targeted at the applicant and the support individuals working with the applicant and it is stipulated that transparency and understanding of a process increase trust in it.
+Decided direction of continued design work
+While doing participating research and desktop research it became clear that there were a couple of notable problems in regards to the praxis guiding documents. Lack of accessible data were deemed as a potential weak point when it comes to establishing trust in the migration process. Lifos also removes outdated/replaced data posts, this could potentially undermine the legality of the process.
+
+
+Even though the summaries and documents in Lifos are written in a formal language the concept would enable applicants to be more aware of the documents that guide the process. This in turn could also support applicants to bring a list of the documents to include in the evaluation. Since the quality assessment discussed above questioned if these Lifos documents are included consistently in evaluations, then any tool that aid an applicant in the selection and understanding of these documents helps the process’ legally justness.
+
+
+The concept direction taken was one that focused on the accessibility of Lifos data, storing it externally and translating it. 
+Prototype
+Translation service
+One of the bigger focus points in making land information data more accessible for the different stakeholders was to have some form of translation in place. Since the concept needed to go through and parse thousands of smaller summaries and larger documents this could not be done by hand. Based on the current asylum seeker's country of origin (and the availability of Arabic speaking testers) the used language translation service needed to provide fair translation of Swedish to English, Swedish to standard Arabic and English to standard Arabic. It also needed to be easy to use and not expensive.
+
+
+Mistranslations make the use of machine translation in situation when clear and concise communication is needed very difficult. On a prototype level and in the intended use case where the search is used to get an initial understanding of the content it is believed to be of lesser consequence.
+Structure
+The concepts main structure is basically four different parts but the goal was to create a user interface that increased accessibility to Lifos data. Because of this goal we needed to first be able to extract data from Lifos or in some other way search through it. The two alternatives were to either build an interface on top of existing Lifos search functionality or to download the data to a custom database. Because of advantages in real-time searchability, a possibility of custom metadata, one-time translations and complete control over the data set, the second alternative was adopted.
+        Because of this approach the server facing side of the concept needed three parts. A database, a crawler which iterated the Lifos database and downloaded the relevant data and a translation functionality. In the end the translation was done with cloud functions for proper separation of purpose between the different programs and more efficient crawl functionality.
+
+
+  
+
+Figure X: Program suite overview
+
+
+Based on the prototypes need for a database, translation service, and hosting, the Google platform Firebase was selected. It contains all the functions needed and several features that make development easier. It is also scalable, affordable and connect directly with the Google Cloud Services that perform translation.
+
+
+  
+
+Figure X: Example of console log messages from crawler
+
+
+  
+
+Figure X: Stored data hierarchy example
+Interface
+The interface was kept as simple as possible. This was deliberately done to identify the minimal amount of functionality needed for such a concept. It was also made to aid accessibility for different language speakers, unaccustomed computer users and mobile users.
+
+
+  
+
+Figure X: First wireframe of the client search interface
+
+
+A few exceptions was made while building the first prototype. The search button was removed to keep the layout as uncluttered as possible. The layout for the result items was simplified and I also included the source and publication data under the title. The ‘tags found’ was also removed.
+
+
+  
+
+Figure X: Client page prototype
+
+
+Since the search page was hosted live on the internet I added a info icon (top left) that when clicked present some information about the project, a useage and data disclaimer notice and a contact email address.
+  
+
+Figure X: Comparison of Lifos detailed search and simplified search
+Evaluation
+A first round of testing tried to validate the general layout and affordance of the interface elements. Directly following the testing an unstructured discussion around the prototype was performed. Three testers total were recruited, with different levels of understandings about the design context. I used Norman’s seven principles of design to assess the user’s perceived overall usability. After this the aims of the concept and its intended use cases were explained and the testers could comment on this as well. 
+Results from first tests
+The search functionality was found to be understandable. No one said anything about the “search”-button missing and had found the keywords easy to put in. However, the appearance likeness to Google’s “omni”-search–”type anything in this box and we find it”-search–created the same affordance in the testers. This seemed to make the keyword-only search slightly more confusing than necessary.
+Sorting of result items was questioned. The prototype was expected (and intended) to sort the items on date with the most recent posts higher up. Unfortunately the placing of results was inconsistent and mixed up. Sorting on relevance was requested as was sorting out sources outside of SMA’s own documents.
+
+
+Comparisons between Lifos search functionality and the prototype gave different responses depending on the testers previous understanding of the area and previous contact with these documents. Testers with pre-existing knowledge about the system said that Lifos own search included more search functions for finding relevant information. These two testers also understood the keyword search faster. The tester without pre-existing knowledge did not find Lifos search functionality helpful, rather intimidating and confusing. 
+Some smaller feedback regarded how links should open in a new window was also expressed. Else overall, when asked to explain the interface, the testers seemed to have understood the different elements of the interface and what they could do without too much problem.
+
+
+After the initial questions and feedback a use case and explanation was presented to the testers and they were asked to comment on this. The presented use case was that if an applicant do not have a public counsel then this concept could be a tool for both applicant and their legal guardian/contact person in finding, communicating and reference the Lifos documents.
+The tester with pre-existing knowledge wanted to see three things to properly be able to use the concept. They needed the complete database to be available, more languages to cover more diverse asylum applicants and better sorting functions.
+Prototype iteration
+Based on the results from the first tests it was decided to develop the prototype and focusing again on the usability of the interface. The keywords under every result (that was in the first wireframe but not in the prototype) were added. The wording in the search frame was changed, from “Search here” to only “Keyword”, and suggestion text was added at the side (“Suggested keywords: Afghanistan, Women, Practise”).
+        The links are instead of opening directly in the same window, which would make so that users lost their search session, was replaced by having them open in a new tab/window. An common “open externally” icon was added to indicate this fact.
+Final concept
+The final concepts main change was the inclusion of a document list for storing specific results. It also include better discoverability of keywords and a slightly clearer layout than the first prototype.
+
+
+  
+
+Figure X: Wireframe of final design
+
+
+To many languages would make it difficult to switch between them effectively. Therefore only five are represented here. There is probably a workaround with introducing customization into the concept and the ability to select which languages the user want to see. No such feature have been incorporated in this version however.
+
+
+  
+
+Figure X: List-view wireframe
+
+
+A user can now click on the ‘add to list’ icon and store a specific document in the ‘document list’. The aim of the ‘document list’ functionality is to allow both applicant and counsel to store evidence/information references in a functional way for future reference. It could also be printed and given to the caseworker in the evaluation interview. How these printouts should be designed has not been completed but it is possible that a “Include as evidence”-stamp could be present.
+        Even while the list is open the language selectors are still clickable so even within the list a user can switch back and forth between languages.
+
+
+  
+
+Figure X: Search suggestions
+
+
+Keyword discoverability is enhanced by showing suggestions while the user types in letters. 
+
+
+________________
+
+
+Discussion
+"It’s no wonder that design is so often viewed as a self-aggrandizing profession. The model also assumes that the insight acquired by empathizing gives The Designer sufficient understanding to define and resolve The Other’s problems—even the world’s problems." (Wendt, 2017)
+
+
+In an article from 2015 called 'Direct Response: How Tech Is Aiding The European Refugee Crisis' Neal Ungerleider writes on FastCompany.com–a magazine and web page about progressive and innovation in business–regarding the high numbers of refugees and how NGOs are using social media and e-commerce services to coordinate and communicate. "[they] are turning to social media and other novel tech methods to assist those in need." (Ungerleider, 2015) This is quite true but should not be surprising.
+The article, written with good intentions no doubt, epitmoizes the tech industry's preoccupation with thinking 'it' changes the world. It is naive and does not begin to cover the multitude of difficulties meeting refugees, volunteers, health professionals, migration workers and NGO's on a daily basis. The only thing that is happening is that communication services are being used by these people. The fact that some of its users are refugees do not implicitly mean that the companies running these services are helping refugees.
+
+
+Ruben Pater acknowledge that the industries naive views can be one of insensitive communication. But he also notes that "WDCD says the refugee crisis is a global challenge too big for governments and NGOs alone, positioning design as the ultimate problem-solving discipline in a way that coincides with the narrative of neoliberal European policies." (Pater, 2016)
+
+
+Still, people try their best to come up with better tools and services for vulnerable people in dire need. But the resulting design is under great risk to either miss what the users needs are, how the design is affected by the political practises by host countries, or not adequately promoting its usage. One such example can be said to be quick-houses for refugee camps, from such companies as IKEA. The design allows for a house to be constructed in a day but misunderstand the need for such housing. It is true that refugee camps need better living conditions, but it is also true that many temporary camps are older than ten years. Quick houses then misunderstands the geo-political difficulties that have stranded thousands of refugees and stops them from moving on.
+Refugees are by definition in transit, on their way to shelter, and even though the reality more often than not don't reflect this (Calais, any african refugee camp) it can be quite tricky to find the correct channels in which information may live and can spread. Information needs to be updated constantly and if no update is made it should be controlled and marked as controlled. This because of the large data sets of outdated information already present.
+
+
+There seems to be missing a large set of knowledge in the tech/design industry when it comes to migration and asylum. This is further enhanced by the fact that not many development and innovation projects has been initialized by NGOs or other institutions. And lastly, what refugees need from a service perspective is sometimes contradictory to governmental processes and law praxis.
+One approach is to embrace the thinking in design politics, presented above, to help designer exercise introspection. To understand where oneself come from, the socio-economic background and one’s cultural heritage. This is made explicit and differences between designer and user can be overcome, if not beneficiary. Participatory research deepens the understanding of the design context and service design can the be used to bring in an holistic approach over a larger area.
+Take aways from design process
+Some reflections on the design process. It is apparent that while working hard to create connections and participating in different activities the work went to long in the exploratory phase and as a result did not complete enough iterations. When approaching the different actors, such as NGO’s and SMA, it is helpful to have examples, sketches or rough prototypes. 
+Another factor that was given a lot of consideration under the whole development phase was to not create something harmful. To not follow the industry saying of “fail fast”. “Failing” in an ethically complicated context might not be such a good idea but I should have allowed myself to fail more while developing the prototype.
+
+
+________________
+
+
+Conclusion
+In this work I have researched the current design effort that target refugees. It has been shown that, on the one hand there is a great rift between NGOs and other organisations understanding about what technology can offer, on the other a naive innovation push from start ups. If this design area continues to be approach as a market opportunity then no real innovation will be achieved.
+
+
+Anyone going into a project like this expecting to find the homogenous user group “refugees” or “asylum seekers” would stack their odds for success against themselves. This is said knowing that this works title express the same flaw. “How to leverage asylum seekers ability to engage in the asylum evaluation process by increasing accessibility of governmental asylum process guiding documentation” is dangerously close to “How to help refugees using design”.
+But the name is not the problem, it is the actions a designer take, or not take as is most common. In this work I have argued that the design context I’ve chosen need to be explored by participation, less observation. The organisations seemingly lack an understanding or practise of innovation and development project, but that the target users most definitely do not.
+
+
+The final concept developed into an alternative search interface–coupled with an external database (external from Lifos own database)–which could be used by asylum seekers, public counsels and other support persons to find, retrieve, discuss, and save data. 
+There is no question that legal processes need expert help. Anyone going through a longer legal process, of any kind, will need guidance from experts. This is the role of a public counsel and the caseworker. That laws and other legal and official documents are not translated into all languages (or other languages at all) is by no means unexpected or troublesome. After all there are expert dedicating their entire lives to understand these laws and processes.
+There is, however, a difference to common national laws and documents that exclusively guide processes with non-citizens. Since the quantity and open nature of these documents it is a good opportunity to use machine translation to, at the very least, give the target group some understanding about the process and the ability to actively search through it. It is activity versus passivity. This passivity is today forced upon the asylum applicant and it is very much damaging.
+
+
+________________
+
+
+Appendix
+Prototype and code
+Prototype can be tested at: https://altl-a0d6b.firebaseapp.com/
+The source code can be found at: https://github.com/monodrom/thesis-project
+Transcript of interview with SMA caseworker (Swedish)
+0:00
+- Hallå det är Jesper!
+- Hej Jesper! Det här är ––– från Migrationsverket.
+- Ja hej –––! Hej, hej, hej!
+- Hejsan!
+- Vad trevligt att du hörde av dig.
+- Ja jag tänkte att det var lättare att ta det över telefonen än via mejl.
+- Ja jag förstår. Jag hade ju lite frågor där.
+- Ja precis. Har du tid nu?
+- Ja jag har tid nu, jag ska bara hitta ett rum. Jag är på jobbet idag. Jag har egentligen tjänstledigt från mitt arbete för att avsluta min kandidatuppsats.
+- Jaha, okej.
+- Jag ska bara ta fram dator och stänga här.
+- Mhm..
+- Eh så.. Sådär, jag har telefonintervjuer nu under några dar och idag har jag pratat med IBM, så bara att du vet jag har satt min telefon på att spela in mina samtal nu. För att jag transkriberar dom efteråt.
+- Ok.
+- Jag kan stänga av den om du inte är bekväm med det men jag tänkte att jag tar ändå anteckningar i vilket fall så, jag vet inte hur du känner..
+- Jaja, ja, men det kommer inte att.. Eh. Vi kommer bara prata om fakta och det kommer inte använda några namn och...
+- Nej nej alltså, det här är till research, så jag kommer inte nämna dig vid namn om du inte vill det, du kommer kunna få läsa det jag skriver om ifall jag skulle nämna något vi pratat om idag.
+- Ja precis. Jag tror inte att jag får lov att figurera med namn utan att jag stämmer av isåfall med vår kommunikationsavdelning.
+- Ja men precis.
+- Men vi kan väl hålla kontakten kring det.
+- Jag kan stänga av den om du blir bekvämare med det, det är enbart för min egen skull.
+- Nä, det spelar ingen roll.
+- Ja, ok.
+
+
+2:10
+- Mm, den första frågan.
+- Ja.
+- Den kan jag inte riktigt svara på. Där vill jag hänvisa dig till en kollega. Jag mejlade honom för att höra om jag kunde hänvisa dig till honom. Han har inte hunnit svara än så jag får återkomma där.
+- Ja. Nu ska vi se den frågan var... Ja men precis det var..
+- Och det va den kring projekt
+- Ja precis! Så det har inte du riktigt, du har ingen koll på det där?
+- Nä. Jag tror inte att migrationsverket driver några [projekt]. Det är mycket möjligt att vi liksom samarbetar, eller ja, samverkar in något projekt. Eh, men jag inte riktigt säga, svara på dom frågorna så..
+- Nä. Jag tänkte att det kanske inte ni visste om sådär men...
+- Nä..
+- Du är den jag fått kontakt med först nu på migrationsverket..
+- Jaja.
+- så att jag ställer dom frågor jag har.
+- Ja precis! Men jag mejlar dig sen kontaktuppgifter.
+- Ja det hade varit jättebra!
+
+
+3:18
+- Sen så hade jag ställt lite frågor kring åldersbedömning.
+- Åldersbedömning ja precis.
+- Och vilken information man kan ta in där. Jag kanske ska säga det innan vi går vidare vad jag jobbar med. Eh, alltså att jag e student på interaktionsdesign på Malmö högskola och jag jobbar ju just nu med min kandidatuppsats om verktyg som kan förbättra eller förenkla eller göra det enklare i den här asylprocessen. Med fokus på intervjun, som jag förstår är den väldigt viktig, den är avgörande för besluten. Men också vad som händer före och efter. Och då är jag intresserad av åldersbedömningen just för att kring dessa vad man kan ha för underlag.
+- Ja just det. Ja..
+- Och om barn och unga kan få med sig underlag i vissa fall i den intervjun.
+- Ja precis ja. Det är ju fri bevisprövning som gäller vilket innebär den asylsökande kan lämna in vad han eller hon vill och sen så ska migrationsverket helt enkelt göra en bedömning av den inlämnade bevisningen. Ehm, så det här du skriver om att du har hört lärare som velat styrka sina elevers ålder med omdömen... Eh.. Migrationsverket gör en förfrågan till Socialtjänsten i vissa fall då Migrationsverket är osäkra kring om personen är underårig eller ej. Och då får Socialtjänsten yttra sig kring åldern eller kring underårigheten. Där kan dom ju hämta in information från exempelvis från skola och ja, från god man och så personer som vistas i den sökandes omgivning då.
+- Är alltid dom inkopplade när det är oklart...
+- Socialtjänsten?
+- Ja Socialtjänsten. När det då är svårt med åldersbedömningen?
+- Mh, precis. Då behöver vi begära in ett yttrande därifrån. Och det är för att få in ytterligare bevisning då.
+- Och det är dom som i så fall ska kontakta lärare och så.
+- Ja precis ja. Mmm..
+- Okej..
+- Eh, men sen finns det ju alla möjligheter för den sökande att lämna in handlingar, alltså, ja pass, id kort...
+- Det finns inget som hindrar den sökande att lämna in egna uttalanden från lärare eller liknande?
+- Nä verkligen inte. Sen får ju Migrationsverket som sagt då göra en bedömning av bevisvärdet i det som är inlämnat. Eh, men allting kan lämnas in.
+- Hur gör man den bedömningen i bevisvärdet? Är det starkare bevisvärde i någonting som kommer från Socialtjänsten, eh, gentemot nått som kommer från den sökande? Till exempel om det är samma typ av handling, ett omdöme av en lärare. Är det bättre om det kommer från dom officiella kanalerna?
+- Det handlar väl egentligen där om att vi vet att det är den sökandes lärare och att dom inte har något slags samarbete eller beroendeförhållande eller så, annars spelar det egentligen ingen roll, eh, där ju.
+- Nej, okej! Ehm, men ni har inga såhär praxis om hur ni går tillväga i sånna fall när det kommer till dom...
+- I bedömningen? Asså det finns inget en.. Asså, vi gör ju en bedömning i varje ärende, det går ju inte att säga.. Vi kan inte säga sån bevisning generellt väger tyngre eller annat, utan det e ju en bedömning i varje ärende då ju.
+- Just det.
+- Så kan vi ju säga att ett pass klart är ju en stark, har ju ett starkt bevisvärde, medans ett intyg från en lärare som inte egentligen heller känner.. Alltså läraren kan ju bara säga sin bedömning. Har ju ingen fakta så att säga.
+- Ja nej jag menar inte så här specifikt lärare men så här folk som träffar den här ungdomen dagligen.
+- Ja. Ja. Men det samlar vi in absolut ju.
+- Mm. Men det är ju intressant ändå. Bevisningen sker på individbasis då.
+- Ja precis.
+
+
+8:21
+- Så har du skrivit också att när en ungdoms ålder tas i beaktande gentemot beslutet. Och då är det ju så att när det kommer en asylsökande till MV så får han eller hon berätta hur gammal personen är då. Skulle vi då se att vi tycker personen är uppenbart över arton år, och då ska det va så uppenbart att ingen skulle ifrågasätta det. Att alla som finns i samma rum är helt övertygade om att den här personen är över arton. Då kan vi justera åldern, eh, till.. Så att personen är myndig helt enkelt, och handläggs enligt dom riktlinjer som finns för vuxna.
+- Just det.
+- Annars så handlägger vi ärendet som ett ensamkommande barn, och sen tar vi inte beslut om.. Sen tar vi beslut om.. kring åldern i samband med asylbeslutet. Så att vi utreder både skyddsskälen och åldern.
+- Right. Okej. Så..
+- Så när utredningen, när vi utreder personen, om personen inte har skrivits upp i ålder, då får vi även utreda identiteten och.. Ja, så vi landar i en bra bedömning av den sökandes underårighet. Eller, ja, överårighet.
+- Just det ja. Men säg så vi har en sökande som kommer hit och hen är.. Den har legitimation så kanske inte behöver undersöka dess ålder. Men säg att den kanske är sjutton år gammal. Och om... Ibland är det väldigt långa väntetider som vi sett nu nyligen när det just är sånt högt tryck, så går det kanske ett år innan den får en tid. Vad.. Hur då.. Handläggs den som myndig eller som..
+- Ja, precis. Ja då hinner ju personen fylla arton år, eh, och då får vi handlägga personen, ja, som den myndiga personen den e. Vi har gjort prioriteringar inom MV där vi har påskyndat dom personerna som, eh, som har närmat sig.. Alltså sjuttonåringar helt enkelt. Försökt prioritera dom ärendena, men... Mot bakgrund av att det kom så många ungdomar under 2015 så har vi inte kunnat handlägga alla. Men vi har gjort prioriteringar iaf i alla regioner.
+- Okej. Ah, ja de e ju intressant. Men så ni gör prioriteringar och det e helt okej att göra det. Alltså att se till att vissa ärenden prioriteras snabbare.
+- Ja men precis så.
+- Okej..
+- Så länge det är till den sökandes fördel ju. Att vi handlägger det för.. Det är det som är syftet.
+
+
+11:32
+- Ah men precis. Precis. Eh, jag har också undrat lite över, så här, hur... Alltså, jag har inte... Jag har ju aldrig haft kontakt med er, MV, ehm.. Hur ser eran kontakt med dom som söker? Hur ser eran kontakt ut med barnen? Alltså hur, säg frekvent är den? Hur ofta uppdateras deras ärende liksom? Så att dom kan läsa det till exempel.
+- Just det. Eh, MV, eller det är ju så att vi registrerar de när de gör sin asylansökan. Eh, därefter får man ett offentligt biträde och barnen får en god man. Och därefter kallas den sökande till ett fördjupat ansökningssamtal.
+- Okej.
+- Eh, och där dels barnet får information över hela processen och, ja, vi ställer en del frågor kring identitet, hemvist och skyddsbehov och så.
+- Okej. Men det är ingen utvärdering där utan det är bara för att förbereda er, vad ni kommer att behöva göra för utredningar liksom.
+- Ja precis ja. Och för att lämna information till den.. Barnet då.
+- Just det.
+- Och därefter hålls asylutredningen.
+- Och det är intervjun där då.
+- Ja precis. Sen, eller varje asylsökande är kopplad till en mottagningsenhet, och till mottagningsenheten finns det möjlighet att vända sig om man har frågor, ja kring hälsa, boende, pengar eller vad det kan va så. Men annars e det ju inga möten fram tills beslut fattas i ärendet. Då man ska delges beslut.
+- Så efter det ansökningssamtalet, det fördjupade ansökningssamtalet så får man bara ett besked om att nu har du blivit kallad, eller en kallelse till utredningen. Om man inte då kontaktat er under tiden för..
+- Ja precis med frågor eller så. Och sen har den sökande ju en god man som ju e ställföreträdare och som kan också ställa frågor och föra den sökandes talan.
+- Och god man har man när man är minderårig. Har man även det när man är vuxen?
+- Nä det har man inte om man inte har något handikapp, funktionshinder som gör att man inte kan föra sin egen talan.
+- Precis precis. Och efter den asylutredningen, eh vad, har ni nån kontakt med dom...
+- Eh ja den processen kan inte jag jättebra måste jag säga men efter beslutet så, personen delges ju sitt beslut, alltså får reda på utfallet är i beslutet. Eh, och sedan startar ju antingen en process av, alltså en bosättningsprocess där, ja personen ska bo då. Eller, en, antingen överklagandeprocess. Och då drivs ju ärendet i domstol, och då är det en process förare från MV som är i kontakt med den .. Eller nä förlåt, då e det.. Processföraren driver ju MVs talan och då det offentliga biträdet som driver den sökandes talan i domstolshandlingen.
+- Då överklagas de till migrationsdomstolen då.
+- Ja precis. Sen är det ju då den när beslutet till slut vinner laga kraft, när det inte längre går att överklaga så är det ju.. Ja då ska det ju verkställas då ju så att personen ska återvända..
+- Så.. Då e det utvisning eller vad e det..
+- Precis, ja. Om personen inte beviljas uppehållstillstånd så ska ju personen utvisas.
+- Hur funkar det.. När du säger bosättning, det gäller även de här kortare, temporära uppehållstillstånden nu som finns också?
+- Ja.. Jaja, precis ja. Och där jag e inte jätte bra på dom frågorna, då har jag en kollega som du kan fråga, en annan kollega som skulle kunna svara lite mer på det. Men..
+- Men för barn och unga, asså e icke-myndiga personer, så är det gäller det fortfarande att man kan få det här tillfälliga uppehållstillståndet eller är det permanent uppehållstillstånd?
+- Nej det är det tillfälliga uppehållstillståndet även där.
+- Och det gäller i ett år sen så får man, eh, en ny asylutredning eller?
+- Det e, ja precis man får ju ansöka på nytt i så fall, man får ansöka om förlängning. Men om jag inte säger fel, det står ju i den tidsbegränsade lagen, men tretton månader är det väl om man fått alternativt skyddsstatusförklaring då och tre år om man har fått flyktingstatusförklaring.
+- Just det, just det.. Så man får ansöka om förlängning..
+- Precis.
+- Okej. Och när man gör det.. Jag är lite intresserad av det just förlängningen.. Att det skapar ju fler ärenden hos er kan man tänka, att ni kommer behöva utreda dom här personerna igen. Eh, gör ni dom utredningarna på individuell basis också så att ni..
+- Vi har ju faktiskt inte kommit till det läget ännu, det kommer bli under hösten som vi får in våra första. Eh, och det håller på att arbetas fram metoderna för hur vi ska arbeta med det på bästa sätt med dom. Så att där finns inte.. kan jag inte säga så mycket ännu faktiskt.
+- Ni håller på och arbetar fram dom metoderna nu då. Man tänker ju att det har kanske ändrats en del eller så har det inte ändrats en del..
+- Ja precis..
+- Och om det då kommer mycket folk vill man kanske att den processen ska gå smidigare..
+- Ja precis. Vi kommer ju absolut få göra en individuell prövning i varje ärende men hur vi gör den och hur pass omfattande den är.. svårt att säga just nu.
+
+
+18:30
+- Nä.. Nånting jag tycker är intressant också är att ni har era rättsliga ställningstagande som jag förstår att ni har nu. Nu när jag börjat läsa på om detta landsinformationen och ja mycket av dom här hur man ska förhålla sig till domar och sånt där. Ni får inte så mycket support från migrationsöverdomstolen. Det har ju varit lite snack om det att dom kanske skulle tillhandhava eh, centraliserad landinformation och mer guidning i fallen.
+- Ah okej...
+- Hur ser du på det? Eller det kanske var luddigt sagt av mig.
+- Ja nej, jag känner nog inte riktigt till den diskussionen men det e ju MVs rättschef eller rättscenterenhet då ju som tar fram de här riktlinjerna. Och land information, vi har ju en enhet som jobbar med att ta fram landinformation. Sen använder vi såklart domar.. Domarna e också vägledande i vårt arbete.. Absolut.
+- Just det.
+- Så ja..
+
+
+19:43
+- Eh.. Vad e... Vad är din position?
+- Vad jag gör? Ja just det! Det har jag inte sagt.. Jag arbetar på vårt ––– som verksamhetsexpert med fokus på asylfrågor. Mm, och eh, då är jag ingen rättslig expert utan bara mer med det operativa, hur strukturen inom region syd kring de här frågorna.
+- Just det just det. Okej, har du varit med på utredningar?
+- Ja jag har också arbetat som handläggare. Precis. Och, ja, haft olika positioner inom migrationsverket, så absolut. Eh, Jesper jag tror jag måste gå för dagen.
+- Ja! Jag förstår.
+- Men jag pratar gärna vidare om du har fler frågor.
+- Ja det hade varit jätteintressant. Ja jag har några frågor, det är framförallt att jag vill, jag har lite trådar som jag kanske skulle kunna följa upp på lite senare. Men jag kan skriva det i mejl.
+- Ja skriv gärna i ett mejl för då kan jag också se vilka andra som du behöver prata med.
+- Ja en kortis dock. Eh, hade det... Nu gör jag mitt kandidatarbete. Jag undrar om det finns möjlighet för mig att komma å besöka just där ni är och har dom här handläggningarna, eller intervjuerna?
+- Ja... Asså för att sitta med?
+- Inte för att sitta med. Det tänker jag att ni inte tillåter alls. Men jag tänkte lite mer bara göra ett studiebesök egentligen.
+- På en enhet i så fall?
+- I första hand.
+- Ja precis. Jag får höra lite med min chef, han är ledig denna veckan, så det får bli nästa i så fall. Men jag kan ta upp det med honom.
+- Jag gör så här att jag drar iväg ett mejl till dig med lite uppföljningsfrågor så behöver du inte komma ihåg allting.
+- Men det är jättebra.
+- Toppen! Tack så jättemycket!
+- Ja det var så lite.
+- Jättetrevligt å prata.
+- Detsamma. Vi hörs!
+- Det gör vi. Hej då!
+- Hej då. Hej!
+
+
+________________
+
+
+References
+Printed sources
+Adenfelt, O. (ed.) (2016). Migrationsinfo för alla. 2 ed. Stockholm: Fores
+BIV, (2012). Vi reste hit: Berättelser av Samarbetsgruppen & Fotbollsgruppen. Malmö: Smulsk förlag
+Buchanan, R. (1992). Wicked Problems in Design Thinking. Design Issues, 8(2), pp. 14-19.
+Cooper, Alan (2014). About face: the essentials of interaction design. 4. ed. Indianapolis: Wiley
+Forlizzi, J. and Zimmerman, J. (2013). Promoting Service Design as a Core Practice in Interaction Design. Proceedings of IASDR13.
+Gartley, T. and Due, C. (2017). The Interpreter Is Not an Invisible Being: A Thematic Analysis of the Impact of Interpreters in Mental Health Service Provision with Refugee Clients. Australian Psychology, 52, pp. 31–40.
+Jönsson, B., Anderberg, P., Flodin, E., Malmborg, L., Nordgren, C. and Svensk, A. (2005). Ethics in the Making. Design Philosophy Papers, 3(4), pp. 213-226.   
+Keshavarz, M. (2016). Design-Politics : An Inquiry into Passports, Camps and Borders. Malmö: Malmö University
+Kolko, J. (2010). Abductive Thinking and Sensemaking: The Drivers of Design Synthesis. Design Issues, 26(1), Cambridge: MIT Press
+Menold, J., Jablokow, K. and Simpson, T. (2017). Prototype for X (PFX): A holistic framework for structuring prototyping methods to support engineering design. Design Studies 50: pp. 70-112.
+Miraz, M.H., Excell, P.S. & Ali, M. (2016). User interface (UI) design issues for multilingual users: a case study. Universal Access in the Information Society 15(3): pp 431–444.
+Muratovski, Gjoko (2016). Research for designers: a guide to methods and practice.
+Norman, Donald A. (2013). The design of everyday things. Revised and expanded edition. New York, NY: Basic Books
+Ruijer, E., Grimmelikhuijsen, S. & Albert Meijer, A. (2017). Open data for democracy: Developing a theoretical framework for open data use. Government Information Quarterly 34(1): pp 45–52.
+Stern, Rebecca Thorburn & Wikström, Hanna (2016). Migrationsrätt: skyddsbehov och trovärdighet - bedömning i asylärenden. Stockholm: Liber
+Stickdorn, Marc & Schneider, Jakob (ed.) (2011). This is service design thinking: basics, tools, cases. Hoboken, N.J.: Wiley
+Woolrych, A., Hornbæk, K., Frøkjær, E., & Cockton, G. (2011). Ingredients and Meals Rather Than Recipes: A Proposal for Research That Does Not Treat Usability Evaluation Methods as Indivisible Wholes. International Journal of Human–Computer Interaction, 27(10), pp. 940-970.
+Internet sources
+Amberpress, (2015). ICOON For Refugees. [online] Available at: http://icoonforrefugees.com/ [Accessed 10 Mar. 2017].
+Eurostat, (2017). Asylum quarterly report. [online] Available at: http://ec.europa.eu/eurostat/statistics-explained/index.php/Asylum_quarterly_report [Accessed 15 Feb. 2017].
+Eurostat Press Office, (2016). Asylum in the EU Member States. [pdf] Available at http://ec.europa.eu/eurostat/documents/2995521/7203832/3-04032016-AP-EN.pdf/ [Accessed 10 Mar. 2017].
+Gray, C. (2016). Is your app the best way to help refugees? Improving the collaboration between humanitarian actors and the tech industry. [online] Available at: http://www.unhcr.org/innovation/app-best-way-help-refugees-improving-collaboration-humanitarian-actors-tech-industry/ [Accessed 22 Mar. 2017] 
+The Guardian (2017) Chatbot that overturned 160,000 parking fines now helping refugees claim asylum. [online] Available at: https://www.theguardian.com/technology/2017/mar/06/chatbot-donotpay-refugees-claim-asylum-legal-aid?CMP=twt_a-technology_b-gdntech [Accessed 13 Mar. 2017]
+Information om Sverige, (2017). Homepage. [online] Available at: http://www.informationsverige.se/ [Accessed 24 Mar. 2017].
+Migrationsinfo, (2016). Fortsatt minskning av antalet asylsökande till Sverige. [online] Available at: http://www.migrationsinfo.se/senaste-siffrorna-fran-migrationsverket-visar-pa-fortsatt-minskning-av-antalet-asylsokande-till-sverige/ [Accessed 10 Mar. 2017].
+Migrationsinfo, (2017). Ett halvår med den tillfälliga lagen. [online] Available at: http://www.migrationsinfo.se/ett-halvar-med-den-tillfalliga-lagen/ [Accessed 20 Apr. 2017].
+Migrationsverket, (2016(1)). Många vill påverka Migrationsverkets arbete på ett otillåtet sätt. [online] Available at: https://www.migrationsverket.se/Om-Migrationsverket/Nyhetsarkiv/Nyhetsarkiv-2016/2016-09-08-Manga-vill-paverka-Migrationsverkets-arbete-pa-ett-otillatet-satt.html [Accessed 12 Mar. 2017].
+Migrationsverket, (2016(2)). Sweden first with new platform to assist migration and integration. [online] Available at: https://www.migrationsverket.se/English/About-the-Migration-Agency/News-archive/News-archive-2016/2016-09-06-Sweden-first-with-new-platform-to-assist-migration-and-integration.html [Accessed 4 May 2017].
+Migrationsverket, (2017(1)). Migrationsverkets årsredovisning 2016. [pdf] Available at https://www.migrationsverket.se/download/18.4100dc0b159d67dc6142a4e/1487775100129/%C3%85rsredovisning+2016.pdf [Accessed 20 Mar. 2017].
+Migrationsverket, (2017(2)). How to apply for asylum. [online] Available at: https://www.migrationsverket.se/English/Private-individuals/Protection-and-asylum-in-Sweden/Applying-for-asylum/How-to-apply-for-asylum.html [Accessed 20 Apr. 2017].
+Migrationsverket, (2017(3)). Main page. [online] Available at: https://www.migrationsverket.se/English [Accessed 20 Apr. 2017].
+Pater, R. (2016). Treating the refugee crisis as a design problem is problematic. [online] Available at:  https://www.dezeen.com/2016/04/21/ruben-pater-opinion-what-design-can-do-refugee-crisis-problematic-design/ [Accessed 20 Mar. 2017]
+Setelin, (2016). Start page. [online] Available at: https://setel.in/ [Accessed 20 Apr. 2017].
+SVT Nyheter, (2016). Unga nyanlända mår sämre med tiden [online] Available at: http://www.svt.se/nyheter/inrikes/unga-nyanlanda-mar-samre-med-tiden [Accessed 16 Mar. 2017].
+UN (1948). Universal Declaration of Human Rights: adopted and proclaimed by General Assembly resolution 217 (III) of 10 December 1948. [pdf] Available at: http://www.ohchr.org/EN/UDHR/Documents/UDHR_Translations/eng.pdf [Accessed 20 Apr. 2017].
+UNHCR (1967). The 1951 Convention relating to the status of refugees and its 1967 Protocol. [pdf] Available at: http://www.unhcr.org/protect/PROTECTION/3b66c2aa10.pdf [Accessed 20 Apr. 2017].
+UNHCR, (2016). Global Trends 2015. [online] Available at: http://reliefweb.int/sites/reliefweb.int/files/resources/576408cd7.pdf [Accessed 10 Mar. 2017]
+UN News Center, (2016). Unprecedented’ 65 million people displaced by war and persecution in 2015. [online] Available at: http://refugeesmigrants.un.org/%E2%80%98unprecedented%E2%80%99-65-million-people-displaced-war-and-persecution-2015-%E2%80%93-un [Accessed 10 Mar. 2017].
+Ungerleider, N. (2015). Direct Response: How Tech Is Aiding The European Refugee Crisis. [online] Available at: https://www.fastcompany.com/3050761/fast-feed/direct-response-how-tech-is-aiding-the-european-refugee-crisis [Accessed 10 Apr. 2017]
+Wendt, T. (2017). Empathy as Faux Ethics. [online] Available at: https://www.epicpeople.org/empathy-faux-ethics/ [Accessed 22 Feb. 2017]
+Øresundsinstituttet, (2017). Fakta: Effekterna av id- och gränskontroller mellan Skåne och Själland – id-kontrollerna avskaffas medan gränskontrollerna förstärks. [online] Available at: http://www.oresundsinstituttet.org/fakta-id-kontrollerna-over-oresund-forlanger-restiden-med-tag-till-sverige-med-mellan-10-och-50-minuter/ [Accessed 30 Apr. 2017].
+Laws
+SFS 2005:716. Utlänningslagen. Stockholm: Justitiedepartementet
+SFS 2015:1073. Lag om särskilda åtgärder vid allvarlig fara för den allmänna ordningen eller den inre säkerheten i landet. Stockholm: Justitiedepartementet
+SFS 2017:123. Lag om ändring i utlänningslagen (2005:716). Stockholm: Justitiedepartementet
+Radio, tv and film
+SR - Kaliber, (2017). Asylutredningarna: En rättvis bedömning?. [radio] Available at: http://sverigesradio.se/sida/avsnitt/855243?programid=1316 [Accessed 20 Mar. 2017].
+SVT - Löfgren, N. & Selo, L. (2016). Ahmads resa. [tv] Available at: https://www.svtplay.se/video/11575098/ahmads-resa/ahmads-resa-avsnitt-1?info=visa [Accessed 4 Mar. 2017]
+Interviews, observations and lectures
+Asylrättstudenterna Malmö och Lund (2017). Introduction to asylum and migration law. Lund, [Visited 9 Mar. & 14 Mar. 2017].
+Andersson, J. & Dalin, H. (2017). Interview with Dalin. [Conducted 8 Mar. 2017].
+Andersson, J. & Tofani, K. (2017). Interview with SDP Tofani. [Conducted 15 Mar. 2017].
+Andersson, J. & SMA caseworker (2017). Interview with SMA caseworker. [Transcript] See appendix: Transcript of interview with SMA caseworker (in Swedish) [Conducted 8 Mar. 2017].
+Kontrapunkt (2017). Volunteer introductory seminar. Malmö, [Visited 1 Mar. 2017].
+
+
+
+
+Jesper Andersson, IDK14.
