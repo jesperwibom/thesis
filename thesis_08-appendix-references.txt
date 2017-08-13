@@ -1,0 +1,226 @@
+Appendix
+Prototype and code
+Prototype can be tested at: https://altl-a0d6b.firebaseapp.com/
+The source code can be found at: https://github.com/monodrom/thesis-project
+Transcript of interview with SMA caseworker (Swedish)
+0:00
+- Hallå det är Jesper!
+- Hej Jesper! Det här är ––– från Migrationsverket.
+- Ja hej –––! Hej, hej, hej!
+- Hejsan!
+- Vad trevligt att du hörde av dig.
+- Ja jag tänkte att det var lättare att ta det över telefonen än via mejl.
+- Ja jag förstår. Jag hade ju lite frågor där.
+- Ja precis. Har du tid nu?
+- Ja jag har tid nu, jag ska bara hitta ett rum. Jag är på jobbet idag. Jag har egentligen tjänstledigt från mitt arbete för att avsluta min kandidatuppsats.
+- Jaha, okej.
+- Jag ska bara ta fram dator och stänga här.
+- Mhm..
+- Eh så.. Sådär, jag har telefonintervjuer nu under några dar och idag har jag pratat med IBM, så bara att du vet jag har satt min telefon på att spela in mina samtal nu. För att jag transkriberar dom efteråt.
+- Ok.
+- Jag kan stänga av den om du inte är bekväm med det men jag tänkte att jag tar ändå anteckningar i vilket fall så, jag vet inte hur du känner..
+- Jaja, ja, men det kommer inte att.. Eh. Vi kommer bara prata om fakta och det kommer inte använda några namn och...
+- Nej nej alltså, det här är till research, så jag kommer inte nämna dig vid namn om du inte vill det, du kommer kunna få läsa det jag skriver om ifall jag skulle nämna något vi pratat om idag.
+- Ja precis. Jag tror inte att jag får lov att figurera med namn utan att jag stämmer av isåfall med vår kommunikationsavdelning.
+- Ja men precis.
+- Men vi kan väl hålla kontakten kring det.
+- Jag kan stänga av den om du blir bekvämare med det, det är enbart för min egen skull.
+- Nä, det spelar ingen roll.
+- Ja, ok.
+
+
+2:10
+- Mm, den första frågan.
+- Ja.
+- Den kan jag inte riktigt svara på. Där vill jag hänvisa dig till en kollega. Jag mejlade honom för att höra om jag kunde hänvisa dig till honom. Han har inte hunnit svara än så jag får återkomma där.
+- Ja. Nu ska vi se den frågan var... Ja men precis det var..
+- Och det va den kring projekt
+- Ja precis! Så det har inte du riktigt, du har ingen koll på det där?
+- Nä. Jag tror inte att migrationsverket driver några [projekt]. Det är mycket möjligt att vi liksom samarbetar, eller ja, samverkar in något projekt. Eh, men jag inte riktigt säga, svara på dom frågorna så..
+- Nä. Jag tänkte att det kanske inte ni visste om sådär men...
+- Nä..
+- Du är den jag fått kontakt med först nu på migrationsverket..
+- Jaja.
+- så att jag ställer dom frågor jag har.
+- Ja precis! Men jag mejlar dig sen kontaktuppgifter.
+- Ja det hade varit jättebra!
+
+
+3:18
+- Sen så hade jag ställt lite frågor kring åldersbedömning.
+- Åldersbedömning ja precis.
+- Och vilken information man kan ta in där. Jag kanske ska säga det innan vi går vidare vad jag jobbar med. Eh, alltså att jag e student på interaktionsdesign på Malmö högskola och jag jobbar ju just nu med min kandidatuppsats om verktyg som kan förbättra eller förenkla eller göra det enklare i den här asylprocessen. Med fokus på intervjun, som jag förstår är den väldigt viktig, den är avgörande för besluten. Men också vad som händer före och efter. Och då är jag intresserad av åldersbedömningen just för att kring dessa vad man kan ha för underlag.
+- Ja just det. Ja..
+- Och om barn och unga kan få med sig underlag i vissa fall i den intervjun.
+- Ja precis ja. Det är ju fri bevisprövning som gäller vilket innebär den asylsökande kan lämna in vad han eller hon vill och sen så ska migrationsverket helt enkelt göra en bedömning av den inlämnade bevisningen. Ehm, så det här du skriver om att du har hört lärare som velat styrka sina elevers ålder med omdömen... Eh.. Migrationsverket gör en förfrågan till Socialtjänsten i vissa fall då Migrationsverket är osäkra kring om personen är underårig eller ej. Och då får Socialtjänsten yttra sig kring åldern eller kring underårigheten. Där kan dom ju hämta in information från exempelvis från skola och ja, från god man och så personer som vistas i den sökandes omgivning då.
+- Är alltid dom inkopplade när det är oklart...
+- Socialtjänsten?
+- Ja Socialtjänsten. När det då är svårt med åldersbedömningen?
+- Mh, precis. Då behöver vi begära in ett yttrande därifrån. Och det är för att få in ytterligare bevisning då.
+- Och det är dom som i så fall ska kontakta lärare och så.
+- Ja precis ja. Mmm..
+- Okej..
+- Eh, men sen finns det ju alla möjligheter för den sökande att lämna in handlingar, alltså, ja pass, id kort...
+- Det finns inget som hindrar den sökande att lämna in egna uttalanden från lärare eller liknande?
+- Nä verkligen inte. Sen får ju Migrationsverket som sagt då göra en bedömning av bevisvärdet i det som är inlämnat. Eh, men allting kan lämnas in.
+- Hur gör man den bedömningen i bevisvärdet? Är det starkare bevisvärde i någonting som kommer från Socialtjänsten, eh, gentemot nått som kommer från den sökande? Till exempel om det är samma typ av handling, ett omdöme av en lärare. Är det bättre om det kommer från dom officiella kanalerna?
+- Det handlar väl egentligen där om att vi vet att det är den sökandes lärare och att dom inte har något slags samarbete eller beroendeförhållande eller så, annars spelar det egentligen ingen roll, eh, där ju.
+- Nej, okej! Ehm, men ni har inga såhär praxis om hur ni går tillväga i sånna fall när det kommer till dom...
+- I bedömningen? Asså det finns inget en.. Asså, vi gör ju en bedömning i varje ärende, det går ju inte att säga.. Vi kan inte säga sån bevisning generellt väger tyngre eller annat, utan det e ju en bedömning i varje ärende då ju.
+- Just det.
+- Så kan vi ju säga att ett pass klart är ju en stark, har ju ett starkt bevisvärde, medans ett intyg från en lärare som inte egentligen heller känner.. Alltså läraren kan ju bara säga sin bedömning. Har ju ingen fakta så att säga.
+- Ja nej jag menar inte så här specifikt lärare men så här folk som träffar den här ungdomen dagligen.
+- Ja. Ja. Men det samlar vi in absolut ju.
+- Mm. Men det är ju intressant ändå. Bevisningen sker på individbasis då.
+- Ja precis.
+
+
+8:21
+- Så har du skrivit också att när en ungdoms ålder tas i beaktande gentemot beslutet. Och då är det ju så att när det kommer en asylsökande till MV så får han eller hon berätta hur gammal personen är då. Skulle vi då se att vi tycker personen är uppenbart över arton år, och då ska det va så uppenbart att ingen skulle ifrågasätta det. Att alla som finns i samma rum är helt övertygade om att den här personen är över arton. Då kan vi justera åldern, eh, till.. Så att personen är myndig helt enkelt, och handläggs enligt dom riktlinjer som finns för vuxna.
+- Just det.
+- Annars så handlägger vi ärendet som ett ensamkommande barn, och sen tar vi inte beslut om.. Sen tar vi beslut om.. kring åldern i samband med asylbeslutet. Så att vi utreder både skyddsskälen och åldern.
+- Right. Okej. Så..
+- Så när utredningen, när vi utreder personen, om personen inte har skrivits upp i ålder, då får vi även utreda identiteten och.. Ja, så vi landar i en bra bedömning av den sökandes underårighet. Eller, ja, överårighet.
+- Just det ja. Men säg så vi har en sökande som kommer hit och hen är.. Den har legitimation så kanske inte behöver undersöka dess ålder. Men säg att den kanske är sjutton år gammal. Och om... Ibland är det väldigt långa väntetider som vi sett nu nyligen när det just är sånt högt tryck, så går det kanske ett år innan den får en tid. Vad.. Hur då.. Handläggs den som myndig eller som..
+- Ja, precis. Ja då hinner ju personen fylla arton år, eh, och då får vi handlägga personen, ja, som den myndiga personen den e. Vi har gjort prioriteringar inom MV där vi har påskyndat dom personerna som, eh, som har närmat sig.. Alltså sjuttonåringar helt enkelt. Försökt prioritera dom ärendena, men... Mot bakgrund av att det kom så många ungdomar under 2015 så har vi inte kunnat handlägga alla. Men vi har gjort prioriteringar iaf i alla regioner.
+- Okej. Ah, ja de e ju intressant. Men så ni gör prioriteringar och det e helt okej att göra det. Alltså att se till att vissa ärenden prioriteras snabbare.
+- Ja men precis så.
+- Okej..
+- Så länge det är till den sökandes fördel ju. Att vi handlägger det för.. Det är det som är syftet.
+
+
+11:32
+- Ah men precis. Precis. Eh, jag har också undrat lite över, så här, hur... Alltså, jag har inte... Jag har ju aldrig haft kontakt med er, MV, ehm.. Hur ser eran kontakt med dom som söker? Hur ser eran kontakt ut med barnen? Alltså hur, säg frekvent är den? Hur ofta uppdateras deras ärende liksom? Så att dom kan läsa det till exempel.
+- Just det. Eh, MV, eller det är ju så att vi registrerar de när de gör sin asylansökan. Eh, därefter får man ett offentligt biträde och barnen får en god man. Och därefter kallas den sökande till ett fördjupat ansökningssamtal.
+- Okej.
+- Eh, och där dels barnet får information över hela processen och, ja, vi ställer en del frågor kring identitet, hemvist och skyddsbehov och så.
+- Okej. Men det är ingen utvärdering där utan det är bara för att förbereda er, vad ni kommer att behöva göra för utredningar liksom.
+- Ja precis ja. Och för att lämna information till den.. Barnet då.
+- Just det.
+- Och därefter hålls asylutredningen.
+- Och det är intervjun där då.
+- Ja precis. Sen, eller varje asylsökande är kopplad till en mottagningsenhet, och till mottagningsenheten finns det möjlighet att vända sig om man har frågor, ja kring hälsa, boende, pengar eller vad det kan va så. Men annars e det ju inga möten fram tills beslut fattas i ärendet. Då man ska delges beslut.
+- Så efter det ansökningssamtalet, det fördjupade ansökningssamtalet så får man bara ett besked om att nu har du blivit kallad, eller en kallelse till utredningen. Om man inte då kontaktat er under tiden för..
+- Ja precis med frågor eller så. Och sen har den sökande ju en god man som ju e ställföreträdare och som kan också ställa frågor och föra den sökandes talan.
+- Och god man har man när man är minderårig. Har man även det när man är vuxen?
+- Nä det har man inte om man inte har något handikapp, funktionshinder som gör att man inte kan föra sin egen talan.
+- Precis precis. Och efter den asylutredningen, eh vad, har ni nån kontakt med dom...
+- Eh ja den processen kan inte jag jättebra måste jag säga men efter beslutet så, personen delges ju sitt beslut, alltså får reda på utfallet är i beslutet. Eh, och sedan startar ju antingen en process av, alltså en bosättningsprocess där, ja personen ska bo då. Eller, en, antingen överklagandeprocess. Och då drivs ju ärendet i domstol, och då är det en process förare från MV som är i kontakt med den .. Eller nä förlåt, då e det.. Processföraren driver ju MVs talan och då det offentliga biträdet som driver den sökandes talan i domstolshandlingen.
+- Då överklagas de till migrationsdomstolen då.
+- Ja precis. Sen är det ju då den när beslutet till slut vinner laga kraft, när det inte längre går att överklaga så är det ju.. Ja då ska det ju verkställas då ju så att personen ska återvända..
+- Så.. Då e det utvisning eller vad e det..
+- Precis, ja. Om personen inte beviljas uppehållstillstånd så ska ju personen utvisas.
+- Hur funkar det.. När du säger bosättning, det gäller även de här kortare, temporära uppehållstillstånden nu som finns också?
+- Ja.. Jaja, precis ja. Och där jag e inte jätte bra på dom frågorna, då har jag en kollega som du kan fråga, en annan kollega som skulle kunna svara lite mer på det. Men..
+- Men för barn och unga, asså e icke-myndiga personer, så är det gäller det fortfarande att man kan få det här tillfälliga uppehållstillståndet eller är det permanent uppehållstillstånd?
+- Nej det är det tillfälliga uppehållstillståndet även där.
+- Och det gäller i ett år sen så får man, eh, en ny asylutredning eller?
+- Det e, ja precis man får ju ansöka på nytt i så fall, man får ansöka om förlängning. Men om jag inte säger fel, det står ju i den tidsbegränsade lagen, men tretton månader är det väl om man fått alternativt skyddsstatusförklaring då och tre år om man har fått flyktingstatusförklaring.
+- Just det, just det.. Så man får ansöka om förlängning..
+- Precis.
+- Okej. Och när man gör det.. Jag är lite intresserad av det just förlängningen.. Att det skapar ju fler ärenden hos er kan man tänka, att ni kommer behöva utreda dom här personerna igen. Eh, gör ni dom utredningarna på individuell basis också så att ni..
+- Vi har ju faktiskt inte kommit till det läget ännu, det kommer bli under hösten som vi får in våra första. Eh, och det håller på att arbetas fram metoderna för hur vi ska arbeta med det på bästa sätt med dom. Så att där finns inte.. kan jag inte säga så mycket ännu faktiskt.
+- Ni håller på och arbetar fram dom metoderna nu då. Man tänker ju att det har kanske ändrats en del eller så har det inte ändrats en del..
+- Ja precis..
+- Och om det då kommer mycket folk vill man kanske att den processen ska gå smidigare..
+- Ja precis. Vi kommer ju absolut få göra en individuell prövning i varje ärende men hur vi gör den och hur pass omfattande den är.. svårt att säga just nu.
+
+
+18:30
+- Nä.. Nånting jag tycker är intressant också är att ni har era rättsliga ställningstagande som jag förstår att ni har nu. Nu när jag börjat läsa på om detta landsinformationen och ja mycket av dom här hur man ska förhålla sig till domar och sånt där. Ni får inte så mycket support från migrationsöverdomstolen. Det har ju varit lite snack om det att dom kanske skulle tillhandhava eh, centraliserad landinformation och mer guidning i fallen.
+- Ah okej...
+- Hur ser du på det? Eller det kanske var luddigt sagt av mig.
+- Ja nej, jag känner nog inte riktigt till den diskussionen men det e ju MVs rättschef eller rättscenterenhet då ju som tar fram de här riktlinjerna. Och land information, vi har ju en enhet som jobbar med att ta fram landinformation. Sen använder vi såklart domar.. Domarna e också vägledande i vårt arbete.. Absolut.
+- Just det.
+- Så ja..
+
+
+19:43
+- Eh.. Vad e... Vad är din position?
+- Vad jag gör? Ja just det! Det har jag inte sagt.. Jag arbetar på vårt ––– som verksamhetsexpert med fokus på asylfrågor. Mm, och eh, då är jag ingen rättslig expert utan bara mer med det operativa, hur strukturen inom region syd kring de här frågorna.
+- Just det just det. Okej, har du varit med på utredningar?
+- Ja jag har också arbetat som handläggare. Precis. Och, ja, haft olika positioner inom migrationsverket, så absolut. Eh, Jesper jag tror jag måste gå för dagen.
+- Ja! Jag förstår.
+- Men jag pratar gärna vidare om du har fler frågor.
+- Ja det hade varit jätteintressant. Ja jag har några frågor, det är framförallt att jag vill, jag har lite trådar som jag kanske skulle kunna följa upp på lite senare. Men jag kan skriva det i mejl.
+- Ja skriv gärna i ett mejl för då kan jag också se vilka andra som du behöver prata med.
+- Ja en kortis dock. Eh, hade det... Nu gör jag mitt kandidatarbete. Jag undrar om det finns möjlighet för mig att komma å besöka just där ni är och har dom här handläggningarna, eller intervjuerna?
+- Ja... Asså för att sitta med?
+- Inte för att sitta med. Det tänker jag att ni inte tillåter alls. Men jag tänkte lite mer bara göra ett studiebesök egentligen.
+- På en enhet i så fall?
+- I första hand.
+- Ja precis. Jag får höra lite med min chef, han är ledig denna veckan, så det får bli nästa i så fall. Men jag kan ta upp det med honom.
+- Jag gör så här att jag drar iväg ett mejl till dig med lite uppföljningsfrågor så behöver du inte komma ihåg allting.
+- Men det är jättebra.
+- Toppen! Tack så jättemycket!
+- Ja det var så lite.
+- Jättetrevligt å prata.
+- Detsamma. Vi hörs!
+- Det gör vi. Hej då!
+- Hej då. Hej!
+
+
+________________
+
+
+References
+Printed sources
+Adenfelt, O. (ed.) (2016). Migrationsinfo för alla. 2 ed. Stockholm: Fores
+BIV, (2012). Vi reste hit: Berättelser av Samarbetsgruppen & Fotbollsgruppen. Malmö: Smulsk förlag
+Buchanan, R. (1992). Wicked Problems in Design Thinking. Design Issues, 8(2), pp. 14-19.
+Cooper, Alan (2014). About face: the essentials of interaction design. 4. ed. Indianapolis: Wiley
+Forlizzi, J. and Zimmerman, J. (2013). Promoting Service Design as a Core Practice in Interaction Design. Proceedings of IASDR13.
+Gartley, T. and Due, C. (2017). The Interpreter Is Not an Invisible Being: A Thematic Analysis of the Impact of Interpreters in Mental Health Service Provision with Refugee Clients. Australian Psychology, 52, pp. 31–40.
+Jönsson, B., Anderberg, P., Flodin, E., Malmborg, L., Nordgren, C. and Svensk, A. (2005). Ethics in the Making. Design Philosophy Papers, 3(4), pp. 213-226.   
+Keshavarz, M. (2016). Design-Politics : An Inquiry into Passports, Camps and Borders. Malmö: Malmö University
+Kolko, J. (2010). Abductive Thinking and Sensemaking: The Drivers of Design Synthesis. Design Issues, 26(1), Cambridge: MIT Press
+Menold, J., Jablokow, K. and Simpson, T. (2017). Prototype for X (PFX): A holistic framework for structuring prototyping methods to support engineering design. Design Studies 50: pp. 70-112.
+Miraz, M.H., Excell, P.S. & Ali, M. (2016). User interface (UI) design issues for multilingual users: a case study. Universal Access in the Information Society 15(3): pp 431–444.
+Muratovski, Gjoko (2016). Research for designers: a guide to methods and practice.
+Norman, Donald A. (2013). The design of everyday things. Revised and expanded edition. New York, NY: Basic Books
+Ruijer, E., Grimmelikhuijsen, S. & Albert Meijer, A. (2017). Open data for democracy: Developing a theoretical framework for open data use. Government Information Quarterly 34(1): pp 45–52.
+Stern, Rebecca Thorburn & Wikström, Hanna (2016). Migrationsrätt: skyddsbehov och trovärdighet - bedömning i asylärenden. Stockholm: Liber
+Stickdorn, Marc & Schneider, Jakob (ed.) (2011). This is service design thinking: basics, tools, cases. Hoboken, N.J.: Wiley
+Woolrych, A., Hornbæk, K., Frøkjær, E., & Cockton, G. (2011). Ingredients and Meals Rather Than Recipes: A Proposal for Research That Does Not Treat Usability Evaluation Methods as Indivisible Wholes. International Journal of Human–Computer Interaction, 27(10), pp. 940-970.
+Internet sources
+Amberpress, (2015). ICOON For Refugees. [online] Available at: http://icoonforrefugees.com/ [Accessed 10 Mar. 2017].
+Eurostat, (2017). Asylum quarterly report. [online] Available at: http://ec.europa.eu/eurostat/statistics-explained/index.php/Asylum_quarterly_report [Accessed 15 Feb. 2017].
+Eurostat Press Office, (2016). Asylum in the EU Member States. [pdf] Available at http://ec.europa.eu/eurostat/documents/2995521/7203832/3-04032016-AP-EN.pdf/ [Accessed 10 Mar. 2017].
+Gray, C. (2016). Is your app the best way to help refugees? Improving the collaboration between humanitarian actors and the tech industry. [online] Available at: http://www.unhcr.org/innovation/app-best-way-help-refugees-improving-collaboration-humanitarian-actors-tech-industry/ [Accessed 22 Mar. 2017] 
+The Guardian (2017) Chatbot that overturned 160,000 parking fines now helping refugees claim asylum. [online] Available at: https://www.theguardian.com/technology/2017/mar/06/chatbot-donotpay-refugees-claim-asylum-legal-aid?CMP=twt_a-technology_b-gdntech [Accessed 13 Mar. 2017]
+Information om Sverige, (2017). Homepage. [online] Available at: http://www.informationsverige.se/ [Accessed 24 Mar. 2017].
+Migrationsinfo, (2016). Fortsatt minskning av antalet asylsökande till Sverige. [online] Available at: http://www.migrationsinfo.se/senaste-siffrorna-fran-migrationsverket-visar-pa-fortsatt-minskning-av-antalet-asylsokande-till-sverige/ [Accessed 10 Mar. 2017].
+Migrationsinfo, (2017). Ett halvår med den tillfälliga lagen. [online] Available at: http://www.migrationsinfo.se/ett-halvar-med-den-tillfalliga-lagen/ [Accessed 20 Apr. 2017].
+Migrationsverket, (2016(1)). Många vill påverka Migrationsverkets arbete på ett otillåtet sätt. [online] Available at: https://www.migrationsverket.se/Om-Migrationsverket/Nyhetsarkiv/Nyhetsarkiv-2016/2016-09-08-Manga-vill-paverka-Migrationsverkets-arbete-pa-ett-otillatet-satt.html [Accessed 12 Mar. 2017].
+Migrationsverket, (2016(2)). Sweden first with new platform to assist migration and integration. [online] Available at: https://www.migrationsverket.se/English/About-the-Migration-Agency/News-archive/News-archive-2016/2016-09-06-Sweden-first-with-new-platform-to-assist-migration-and-integration.html [Accessed 4 May 2017].
+Migrationsverket, (2017(1)). Migrationsverkets årsredovisning 2016. [pdf] Available at https://www.migrationsverket.se/download/18.4100dc0b159d67dc6142a4e/1487775100129/%C3%85rsredovisning+2016.pdf [Accessed 20 Mar. 2017].
+Migrationsverket, (2017(2)). How to apply for asylum. [online] Available at: https://www.migrationsverket.se/English/Private-individuals/Protection-and-asylum-in-Sweden/Applying-for-asylum/How-to-apply-for-asylum.html [Accessed 20 Apr. 2017].
+Migrationsverket, (2017(3)). Main page. [online] Available at: https://www.migrationsverket.se/English [Accessed 20 Apr. 2017].
+Pater, R. (2016). Treating the refugee crisis as a design problem is problematic. [online] Available at:  https://www.dezeen.com/2016/04/21/ruben-pater-opinion-what-design-can-do-refugee-crisis-problematic-design/ [Accessed 20 Mar. 2017]
+Setelin, (2016). Start page. [online] Available at: https://setel.in/ [Accessed 20 Apr. 2017].
+SVT Nyheter, (2016). Unga nyanlända mår sämre med tiden [online] Available at: http://www.svt.se/nyheter/inrikes/unga-nyanlanda-mar-samre-med-tiden [Accessed 16 Mar. 2017].
+UN (1948). Universal Declaration of Human Rights: adopted and proclaimed by General Assembly resolution 217 (III) of 10 December 1948. [pdf] Available at: http://www.ohchr.org/EN/UDHR/Documents/UDHR_Translations/eng.pdf [Accessed 20 Apr. 2017].
+UNHCR (1967). The 1951 Convention relating to the status of refugees and its 1967 Protocol. [pdf] Available at: http://www.unhcr.org/protect/PROTECTION/3b66c2aa10.pdf [Accessed 20 Apr. 2017].
+UNHCR, (2016). Global Trends 2015. [online] Available at: http://reliefweb.int/sites/reliefweb.int/files/resources/576408cd7.pdf [Accessed 10 Mar. 2017]
+UN News Center, (2016). Unprecedented’ 65 million people displaced by war and persecution in 2015. [online] Available at: http://refugeesmigrants.un.org/%E2%80%98unprecedented%E2%80%99-65-million-people-displaced-war-and-persecution-2015-%E2%80%93-un [Accessed 10 Mar. 2017].
+Ungerleider, N. (2015). Direct Response: How Tech Is Aiding The European Refugee Crisis. [online] Available at: https://www.fastcompany.com/3050761/fast-feed/direct-response-how-tech-is-aiding-the-european-refugee-crisis [Accessed 10 Apr. 2017]
+Wendt, T. (2017). Empathy as Faux Ethics. [online] Available at: https://www.epicpeople.org/empathy-faux-ethics/ [Accessed 22 Feb. 2017]
+Øresundsinstituttet, (2017). Fakta: Effekterna av id- och gränskontroller mellan Skåne och Själland – id-kontrollerna avskaffas medan gränskontrollerna förstärks. [online] Available at: http://www.oresundsinstituttet.org/fakta-id-kontrollerna-over-oresund-forlanger-restiden-med-tag-till-sverige-med-mellan-10-och-50-minuter/ [Accessed 30 Apr. 2017].
+Laws
+SFS 2005:716. Utlänningslagen. Stockholm: Justitiedepartementet
+SFS 2015:1073. Lag om särskilda åtgärder vid allvarlig fara för den allmänna ordningen eller den inre säkerheten i landet. Stockholm: Justitiedepartementet
+SFS 2017:123. Lag om ändring i utlänningslagen (2005:716). Stockholm: Justitiedepartementet
+Radio, tv and film
+SR - Kaliber, (2017). Asylutredningarna: En rättvis bedömning?. [radio] Available at: http://sverigesradio.se/sida/avsnitt/855243?programid=1316 [Accessed 20 Mar. 2017].
+SVT - Löfgren, N. & Selo, L. (2016). Ahmads resa. [tv] Available at: https://www.svtplay.se/video/11575098/ahmads-resa/ahmads-resa-avsnitt-1?info=visa [Accessed 4 Mar. 2017]
+Interviews, observations and lectures
+Asylrättstudenterna Malmö och Lund (2017). Introduction to asylum and migration law. Lund, [Visited 9 Mar. & 14 Mar. 2017].
+Andersson, J. & Dalin, H. (2017). Interview with Dalin. [Conducted 8 Mar. 2017].
+Andersson, J. & Tofani, K. (2017). Interview with SDP Tofani. [Conducted 15 Mar. 2017].
+Andersson, J. & SMA caseworker (2017). Interview with SMA caseworker. [Transcript] See appendix: Transcript of interview with SMA caseworker (in Swedish) [Conducted 8 Mar. 2017].
+Kontrapunkt (2017). Volunteer introductory seminar. Malmö, [Visited 1 Mar. 2017].
+
+
+
+
+Jesper Andersson, IDK14.

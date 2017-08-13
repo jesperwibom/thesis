@@ -1,0 +1,30 @@
+Methods
+Action research, participation and shadowing
+In the 2005 article “Ethics in the making” Bodil Jönsson and others discuss the different aspects of ethics while doing design work. Among other things they talk about the “friction” that is created by using cultural probes. This “friction” (which is taken to be an expression about the provocative nature of a probe, that it provokes sometimes unexpected reactions and emotions) enable the researcher to take on new perspectives not otherwise conceived. (Jönsson et. al 2005)
+They go on to talk about several other methods for design research that are useful when designing for people with disabilities or are otherwise not belonging to the main group of users. One specific type of method that is mentioned is “action research”. It is described as being “[...] practitioner but a reflective one.” (Jönsson et. al 2005)
+
+
+One type of activity that is related to this is shadowing. As with participatory research methods shadowing do not completely hide the designer but it takes a more observational approach and is possible more interested in the people performing the task rather than engaging with the task. (Stickdorn & Schneider, 2011, p.157)
+Interviews
+Muratowski (2016) give suggestions on data collection in ethnographic studies. Among these are structured and unstructured interviews and how to plan and conduct them.
+
+
+Stickdorn & Schneider brings up another type of interview, the contextual interview. This is done in the context which is being explored or researched. This allows the interviewee to remember things and reflect upon specific details more easily. (Stickdorn & Schneider, 2011, p.162)
+Prototyping
+Because of the arguments in the theory section about design research artefacts and the importance of making them explicit, the prototypes created will have three main purposes. First, to communicate and engage users and partners so that a fair exploration of the design space can be completed. Secondly, to validate findings by have a tangible result to discuss and thirdly, to conduct user tests and evaluate the designs effectiveness and value.
+
+
+Löwgren (2007) specifies the goal of using a prototype as the ability “[...] for empirical evaluation with the intention to study the qualities of the new design in use.”
+
+
+Menold et al. (2017) greatly expands on the different possibilities with prototyping. They argue for the need of a structured framework around this activity, with three different frames listed as viability, feasibility and desirability. (Menold et al., 2017, p.91)
+Design principles
+To focus my concept development I created three design principles for the design (below). This helped discussion around different concepts and how I evaluated the final concept.
+Benchmarking
+I also performed qualitative research with a very limited scope. Going from Muratovski’s case studies (2017) the cases looked at focused on only three questions; what type of design is it, how was it perceived to benefit refugees and how did it benefit refugees.
+User testing
+User testing will be based mainly on the questions brought up by Cooper et. al, namely “naming”, “organisation”, “discoverability” and “effectiveness”. (2014, p.140) This will be followed by a formative evaluation to understand what dosen’t work and evolve the design accordingly. (Cooper et. al, 2014, p. 141)
+Usability evaluation
+A usability testing framework based on different loosely coupled resources together with a strong notion of the qualitative aspects of the testing is developed and argued by Woolrych et. al (2011).
+Service blueprints
+These will be used to get a good overview over the asylum process and to better define the different problems. The service blueprint is used in the exploratory phase of the work and then again in the idea generating phase. (Stickdorn & Schneider, 2011)
