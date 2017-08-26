@@ -1,30 +1,76 @@
 Methods
-Action research, participation and shadowing
-In the 2005 article “Ethics in the making” Bodil Jönsson and others discuss the different aspects of ethics while doing design work. Among other things they talk about the “friction” that is created by using cultural probes. This “friction” (which is taken to be an expression about the provocative nature of a probe, that it provokes sometimes unexpected reactions and emotions) enable the researcher to take on new perspectives not otherwise conceived. (Jönsson et. al 2005)
-They go on to talk about several other methods for design research that are useful when designing for people with disabilities or are otherwise not belonging to the main group of users. One specific type of method that is mentioned is “action research”. It is described as being “[...] practitioner but a reflective one.” (Jönsson et. al 2005)
+Activist- and action research methods
+Activist research is directly applicable to the different fields of design. This work especially makes use of participatory research by taking part in various activities both for the main stakeholders (asylum seekers, applicants in waiting), as well as activities for auxiliary stakeholders (layers, legal counsels, volunteers). The intended result is understanding who the stakeholders are, how to productively use these experiences in idea-generation, and to take a reflective position on how a specific design would, or would not, affect a stakeholder's life.
+
+That said, the same dangers that were described with activist research above, are also present in design project using activist methods. The focus on short-term legal goals is a risk that is still present, adding a risk of focusing too much on the immediate impact of a product or service. The design's potential to improve the quality of life immediately is often higher regarded than the long-term changes to deep-rooted cultural habits. There needs to be a balance between these two focus points.
 
 
-One type of activity that is related to this is shadowing. As with participatory research methods shadowing do not completely hide the designer but it takes a more observational approach and is possible more interested in the people performing the task rather than engaging with the task. (Stickdorn & Schneider, 2011, p.157)
+A similar term to activist research is action research. Denscombe defines four characteristics of action research. The methods used are practical and hands-on, there is a focus on change, it has a cyclical or iterative process, and the intended users or stakeholders are actively participating in the process. According to Denscombe, it is more of a strategy than a method. (Denscombe, 2010a, p. 125)
+
+The difference between activist- and action research, I would say, is that the former is focused on doing research that achieves social change, while the second is, as Denscombe described, more of a term for a research strategy that aims to involve users in the research project. This work–because of the limited scope and time available–therefore focuses more on action research as an overall research strategy, rather than following a specific activist research goal of creating social or legal change.
+
+
+Participation
+The participatory aspect of this work simply means that the users must participate in the research, being a partner in a common research effort. This is achieved by meeting the users, discussing with them and having the design work reflect their inputs. These meetings were realized by attending activities aimed at the different user groups.
+
+Shadowing
+One type of activity, related to the participation aspect outlined above, is shadowing. As with participatory research methods shadowing do not completely hide the designer but it takes a more observational approach and is likely more interested in the people performing the task rather than engaging with the task. (Stickdorn & Schneider, 2011, p.157)
+
+I did use shadowing at the first of my visits to the 'language café' (detailed below). This quickly went into more participatory methods, but the different intents of the two methods were known and helpful.
+
+
+Desktop research methods
+Litterature studies
+Litterature studies were used to support the early stages of the exploratory work as well as ground the design direction in the design process. Muratovski makes a distinction between several different types of literature reviews. In this thesis, I conducted a so called theoretical literature review, presented above. In Muratovski's words, this type of reviews "[...] provide an analysis of how various theories have examined or framed particular issues." (Muratovski, 2017, p. 33) 
+
+Benchmarking
+In the early stages of any design effort, it is necessary to know what has been done before. What existing designs are there in the field already. It is similar to case-studies in that it looks at a specific design, service or product and evaluates it. I would argue that they are two different methods, at least in the way I use them. Case-studies are deeper, more analytical, with the purpose of creating reflective knowledge. Benchmarking, on the other hand, is more of a quantitative method I used in the exploration phase to generate ideas, inspiration, and opportunities. 
+
+Design methods
+The field of design research is comparatively new. As such it borrows methods from many other places, notably from the social sciences as seen above. The header 'Design methods' is not intended to imply that these methods are used in design research only. Instead, it is named as to communicate in what way this work makes use of the listed methods.
+
+Case studies
+To deepen the data from the benchmarking methods, I developed shorter case studies on a select number of services. I focused on three questions; what type of design is it, how was it perceived to benefit refugees and how did it benefit refugees. Muratovski writes about case studies and notes about their ability to reveal insights about complex phenomenon (here services) that have changed or developed over time. (Muratovski, 2017, p. 49) 
+
 Interviews
-Muratowski (2016) give suggestions on data collection in ethnographic studies. Among these are structured and unstructured interviews and how to plan and conduct them.
-
+Muratowski writes about a range of different interviews. Among these are structured and semi-structured interviews. Structured interviews have a strong rigidity to them, so as data is collected in a controlled manner. The semi-structured interview, on the other hand, is more open to exploring the answers or having smaller discussions about relevant subjects. The scope and purpose are guiding the interview, and the questions are prepared beforehand. (Muratovski, 2017, p. 61)
 
 Stickdorn & Schneider brings up another type of interview, the contextual interview. This is done in the context which is being explored or researched. This allows the interviewee to remember things and reflect upon specific details more easily. (Stickdorn & Schneider, 2011, p.162)
-Prototyping
-Because of the arguments in the theory section about design research artefacts and the importance of making them explicit, the prototypes created will have three main purposes. First, to communicate and engage users and partners so that a fair exploration of the design space can be completed. Secondly, to validate findings by have a tangible result to discuss and thirdly, to conduct user tests and evaluate the designs effectiveness and value.
 
+I only managed to use contextual interviews once, when visiting SDP. In the participation efforts, however, I performed several informal interviews, both planned and unplanned, in the relevant context. No interview was completely structured, however, because of the focus on participating with stakeholder.
 
-Löwgren (2007) specifies the goal of using a prototype as the ability “[...] for empirical evaluation with the intention to study the qualities of the new design in use.”
-
-
-Menold et al. (2017) greatly expands on the different possibilities with prototyping. They argue for the need of a structured framework around this activity, with three different frames listed as viability, feasibility and desirability. (Menold et al., 2017, p.91)
-Design principles
-To focus my concept development I created three design principles for the design (below). This helped discussion around different concepts and how I evaluated the final concept.
-Benchmarking
-I also performed qualitative research with a very limited scope. Going from Muratovski’s case studies (2017) the cases looked at focused on only three questions; what type of design is it, how was it perceived to benefit refugees and how did it benefit refugees.
-User testing
-User testing will be based mainly on the questions brought up by Cooper et. al, namely “naming”, “organisation”, “discoverability” and “effectiveness”. (2014, p.140) This will be followed by a formative evaluation to understand what dosen’t work and evolve the design accordingly. (Cooper et. al, 2014, p. 141)
-Usability evaluation
-A usability testing framework based on different loosely coupled resources together with a strong notion of the qualitative aspects of the testing is developed and argued by Woolrych et. al (2011).
 Service blueprints
-These will be used to get a good overview over the asylum process and to better define the different problems. The service blueprint is used in the exploratory phase of the work and then again in the idea generating phase. (Stickdorn & Schneider, 2011)
+A service blueprint is a way to specify and overview all relevant details of a service. Often this includes a graphical representation (as in this work) where perspectives from different stakeholders are specified. (Stickdorn & Schneider, 2011, p. 204) 
+
+In the design process, a rough service blueprint was created. It was used as an illustrative device in discussing the design work with partners, and for idea generation. This document gave a good overview of the asylum process and was beneficial when defining the different problems relating to this process. 
+
+Design guidelines
+To focus my concept development, after the exploration phase I created three guidelines for the continued design work. Using design guidelines is not a research method in themselves. Rather, they could be viewed as a sort of design goals. But in this work, these goals are used as an intermediary step between the participating research and the design process. To take advantage of the data received from the exploratory phase I reduced it down to a small number of guidelines that aided me with evaluating the design direction. It was also useful to the evaluation of the final concept.
+
+Prototyping
+Because of the arguments in the theory section about design research artifacts and the importance of making them explicit, it was decided to make a large effort to create prototypes through out the process, as well as create proof of concepts to easier engage with potential partners. 
+
+Löwgren specifies the goal of using a prototype as the ability “[...] for empirical evaluation with the intention to study the qualities of the new design in use.” (Löwgren, 2007) There are other benefits with using prototyping in research. Menold et al. greatly expand on the different possibilities with prototyping. They argue for the need of a structured framework around this activity, with three different frames listed as viability, feasibility, and desirability. (Menold et al., 2017, p.91)
+
+In this case, the prototypes have three main purposes, but, depending on how to interpret desirability, only feasibility and viability are explored. The main uses of prototypes in this work are first, to communicate and engage users and partners so that a fair exploration of the design space can be completed. (This was only partly successful, however, probably because of a focus on high fidelity.) Secondly, to validate findings by having a tangible result to discuss, and finally, to conduct user tests and evaluate the design's effectiveness and value.
+
+User testing and usability evaluation
+User testing was used in the final stages of the design process. It was based mainly on the questions brought up by Cooper et al., namely “naming,” “organization,” “discoverability” and “effectiveness.” For example: Are design elements correctly labeled, are the overall layout understandable, can users understand what something does, and, can users perform a task effectively. (2014, p.140) The result of the user tests resulted in that the design could be further refined.
+
+In this work, user testing could also be called usability evaluation. Both terms point to the same method used in this work. According to Woolrych et al., usability evaluation focuses strongly on defined qualitative aspects relating to how well the user can use a specific design. (2011) Here the terms are used interchangeably, even though they denote slightly different aims.
+
+
+Ethical implications
+"Activists exist to change power dynamics through mechanisms such as co-produced research. Yet wherever there is power, there are also ethics to consider." (Kara, 2017, p. 298)
+
+In the 2005 article “Ethics in the making,” Jönsson et al. discuss the different aspects of ethics while doing design work. Among other things, they talk about a type of “friction” that sometimes arise. This “friction” (a research method that provokes unexpected reactions and emotions) enable the researcher to take on new perspectives not otherwise conceived. (Jönsson et al. 2005, p. 217)
+
+Another way of describing this is found in Kara. Describing Karen Barad's 'diffractive methodology,' Kara explains it as "[...] interactions of several stones being cast into a pool at once[...]." Then, how a research method creates reactions from its subjects is leading to new 'patterns of difference' that can be analyzed to create new knowledge. (Kara, 2017, p. 291)
+
+In other words, there exists a possibility to use peoples reactions– may they be positive or negative–to generate new data about some phenomenon. A slightly provocative design can lead to discussions and, ideally, a more open discourse on the subject.
+
+To 'provoke' or to 'be provocative' is not the goal of this thesis, and the design work performed is aimed to aid the users. It does include methods retrieved from activist research, and have an overarching action research strategy, such as Denscombe explains it.
+
+However, it can be ethically complex to perform research work in this manner, especially in the selected design space. Denscombe discusses several ethical guidelines that need to be adhered to. 'Informed consent,' 'no misrepresentation or deception,' and 'protection of the interests of participants' are relevant for this work. (Denscombe, 2010b, pp. 62-69)
+
+Before doing participating research or conduct interviews, the intent of this thesis and the research methods have been explained to the participants/interviewees. Only when doing user tests have the presentation of design and purpose been intentionally vague. The participants' interests have been upheld by offering them to be anonymous and reading drafts of the relevant parts.

@@ -165,62 +165,61 @@ ________________
 
 References
 Printed sources
-Adenfelt, O. (ed.) (2016). Migrationsinfo för alla. 2 ed. Stockholm: Fores
+Adenfelt, O. (ed.) (2016). Migrationsinfo för alla. 2nd ed. Stockholm: Fores
 BIV, (2012). Vi reste hit: Berättelser av Samarbetsgruppen & Fotbollsgruppen. Malmö: Smulsk förlag
 Buchanan, R. (1992). Wicked Problems in Design Thinking. Design Issues, 8(2), pp. 14-19.
-Cooper, Alan (2014). About face: the essentials of interaction design. 4. ed. Indianapolis: Wiley
+Cooper, A. (2014). About face: the essentials of interaction design. 4th ed. Indianapolis: Wiley
+Denscombe, M. (2010a). The Good Research Guide: For small-scale social research projects. 4th ed. Maidenhead: Open University Press
+Denscombe, M. (2010b). Ground rules for social research: guidelines for good practice. 2nd ed. Maidenhead: Open University Press
 Forlizzi, J. and Zimmerman, J. (2013). Promoting Service Design as a Core Practice in Interaction Design. Proceedings of IASDR13.
 Gartley, T. and Due, C. (2017). The Interpreter Is Not an Invisible Being: A Thematic Analysis of the Impact of Interpreters in Mental Health Service Provision with Refugee Clients. Australian Psychology, 52, pp. 31–40.
-Jönsson, B., Anderberg, P., Flodin, E., Malmborg, L., Nordgren, C. and Svensk, A. (2005). Ethics in the Making. Design Philosophy Papers, 3(4), pp. 213-226.   
-Keshavarz, M. (2016). Design-Politics : An Inquiry into Passports, Camps and Borders. Malmö: Malmö University
+Jönsson, B., Anderberg, P., Flodin, E., Malmborg, L., Nordgren, C. and Svensk, A. (2005). Ethics in the Making. Design Philosophy Papers, 3(4), pp. 213-226.
+Kara, H. (2017). Identity and power in co-produced activist research. Qualitative Research, 17(3), pp. 289-301.
+Keshavarz, M. (2016). Design-Politics: An Inquiry into Passports, Camps and Borders. Malmö: Malmö University
 Kolko, J. (2010). Abductive Thinking and Sensemaking: The Drivers of Design Synthesis. Design Issues, 26(1), Cambridge: MIT Press
-Menold, J., Jablokow, K. and Simpson, T. (2017). Prototype for X (PFX): A holistic framework for structuring prototyping methods to support engineering design. Design Studies 50: pp. 70-112.
-Miraz, M.H., Excell, P.S. & Ali, M. (2016). User interface (UI) design issues for multilingual users: a case study. Universal Access in the Information Society 15(3): pp 431–444.
-Muratovski, Gjoko (2016). Research for designers: a guide to methods and practice.
-Norman, Donald A. (2013). The design of everyday things. Revised and expanded edition. New York, NY: Basic Books
-Ruijer, E., Grimmelikhuijsen, S. & Albert Meijer, A. (2017). Open data for democracy: Developing a theoretical framework for open data use. Government Information Quarterly 34(1): pp 45–52.
-Stern, Rebecca Thorburn & Wikström, Hanna (2016). Migrationsrätt: skyddsbehov och trovärdighet - bedömning i asylärenden. Stockholm: Liber
-Stickdorn, Marc & Schneider, Jakob (ed.) (2011). This is service design thinking: basics, tools, cases. Hoboken, N.J.: Wiley
+Menold, J., Jablokow, K. and Simpson, T. (2017). Prototype for X (PFX): A holistic framework for structuring prototyping methods to support engineering design. Design Studies, 50, pp. 70-112.
+Miraz, M.H., Excell, P.S. & Ali, M. (2016). User interface (UI) design issues for multilingual users: a case study. Universal Access in the Information Society, 15(3), pp. 431–444.
+Muratovski, G. (2016). Research for designers: a guide to methods and practice. London: Sage
+Norman, D. A. (2013). The design of everyday things. Revised and expanded edition. New York, NY: Basic Books
+Ruijer, E., Grimmelikhuijsen, S. & Meijer, A. (2017). Open data for democracy: Developing a theoretical framework for open data use. Government Information Quarterly, 34(1), pp 45–52.
+Speed, S. (2006). At the Crossroads of Human Rights and Anthropology: Toward a Critically Engaged Activist Research. American Anthropologist, 108(1), pp. 66-76.
+Stern, R. T. & Wikström, H. (2016). Migrationsrätt: skyddsbehov och trovärdighet - bedömning i asylärenden. Stockholm: Liber
+Stickdorn, M. & Schneider, J. (ed.) (2011). This is service design thinking: basics, tools, cases. Hoboken, N.J.: Wiley
 Woolrych, A., Hornbæk, K., Frøkjær, E., & Cockton, G. (2011). Ingredients and Meals Rather Than Recipes: A Proposal for Research That Does Not Treat Usability Evaluation Methods as Indivisible Wholes. International Journal of Human–Computer Interaction, 27(10), pp. 940-970.
 Internet sources
 Amberpress, (2015). ICOON For Refugees. [online] Available at: http://icoonforrefugees.com/ [Accessed 10 Mar. 2017].
 Eurostat, (2017). Asylum quarterly report. [online] Available at: http://ec.europa.eu/eurostat/statistics-explained/index.php/Asylum_quarterly_report [Accessed 15 Feb. 2017].
 Eurostat Press Office, (2016). Asylum in the EU Member States. [pdf] Available at http://ec.europa.eu/eurostat/documents/2995521/7203832/3-04032016-AP-EN.pdf/ [Accessed 10 Mar. 2017].
 Gray, C. (2016). Is your app the best way to help refugees? Improving the collaboration between humanitarian actors and the tech industry. [online] Available at: http://www.unhcr.org/innovation/app-best-way-help-refugees-improving-collaboration-humanitarian-actors-tech-industry/ [Accessed 22 Mar. 2017] 
-The Guardian (2017) Chatbot that overturned 160,000 parking fines now helping refugees claim asylum. [online] Available at: https://www.theguardian.com/technology/2017/mar/06/chatbot-donotpay-refugees-claim-asylum-legal-aid?CMP=twt_a-technology_b-gdntech [Accessed 13 Mar. 2017]
-Information om Sverige, (2017). Homepage. [online] Available at: http://www.informationsverige.se/ [Accessed 24 Mar. 2017].
-Migrationsinfo, (2016). Fortsatt minskning av antalet asylsökande till Sverige. [online] Available at: http://www.migrationsinfo.se/senaste-siffrorna-fran-migrationsverket-visar-pa-fortsatt-minskning-av-antalet-asylsokande-till-sverige/ [Accessed 10 Mar. 2017].
-Migrationsinfo, (2017). Ett halvår med den tillfälliga lagen. [online] Available at: http://www.migrationsinfo.se/ett-halvar-med-den-tillfalliga-lagen/ [Accessed 20 Apr. 2017].
-Migrationsverket, (2016(1)). Många vill påverka Migrationsverkets arbete på ett otillåtet sätt. [online] Available at: https://www.migrationsverket.se/Om-Migrationsverket/Nyhetsarkiv/Nyhetsarkiv-2016/2016-09-08-Manga-vill-paverka-Migrationsverkets-arbete-pa-ett-otillatet-satt.html [Accessed 12 Mar. 2017].
-Migrationsverket, (2016(2)). Sweden first with new platform to assist migration and integration. [online] Available at: https://www.migrationsverket.se/English/About-the-Migration-Agency/News-archive/News-archive-2016/2016-09-06-Sweden-first-with-new-platform-to-assist-migration-and-integration.html [Accessed 4 May 2017].
-Migrationsverket, (2017(1)). Migrationsverkets årsredovisning 2016. [pdf] Available at https://www.migrationsverket.se/download/18.4100dc0b159d67dc6142a4e/1487775100129/%C3%85rsredovisning+2016.pdf [Accessed 20 Mar. 2017].
-Migrationsverket, (2017(2)). How to apply for asylum. [online] Available at: https://www.migrationsverket.se/English/Private-individuals/Protection-and-asylum-in-Sweden/Applying-for-asylum/How-to-apply-for-asylum.html [Accessed 20 Apr. 2017].
-Migrationsverket, (2017(3)). Main page. [online] Available at: https://www.migrationsverket.se/English [Accessed 20 Apr. 2017].
+The Guardian. (2017). Chatbot that overturned 160,000 parking fines now helping refugees claim asylum. [online] Available at: https://www.theguardian.com/technology/2017/mar/06/chatbot-donotpay-refugees-claim-asylum-legal-aid?CMP=twt_a-technology_b-gdntech [Accessed 13 Mar. 2017]
+Information om Sverige. (2017). Homepage. [online] Available at: http://www.informationsverige.se/ [Accessed 24 Mar. 2017].
+Migrationsinfo. (2016). Fortsatt minskning av antalet asylsökande till Sverige. [online] Available at: http://www.migrationsinfo.se/senaste-siffrorna-fran-migrationsverket-visar-pa-fortsatt-minskning-av-antalet-asylsokande-till-sverige/ [Accessed 10 Mar. 2017].
+Migrationsinfo. (2017). Ett halvår med den tillfälliga lagen. [online] Available at: http://www.migrationsinfo.se/ett-halvar-med-den-tillfalliga-lagen/ [Accessed 20 Apr. 2017].
+Migrationsverket. (2016a). Många vill påverka Migrationsverkets arbete på ett otillåtet sätt. [online] Available at: https://www.migrationsverket.se/Om-Migrationsverket/Nyhetsarkiv/Nyhetsarkiv-2016/2016-09-08-Manga-vill-paverka-Migrationsverkets-arbete-pa-ett-otillatet-satt.html [Accessed 12 Mar. 2017].
+Migrationsverket. (2016b). Sweden first with new platform to assist migration and integration. [online] Available at: https://www.migrationsverket.se/English/About-the-Migration-Agency/News-archive/News-archive-2016/2016-09-06-Sweden-first-with-new-platform-to-assist-migration-and-integration.html [Accessed 4 May 2017].
+Migrationsverket. (2017a). Migrationsverkets årsredovisning 2016. [pdf] Available at https://www.migrationsverket.se/download/18.4100dc0b159d67dc6142a4e/1487775100129/%C3%85rsredovisning+2016.pdf [Accessed 20 Mar. 2017].
+Migrationsverket. (2017b). How to apply for asylum. [online] Available at: https://www.migrationsverket.se/English/Private-individuals/Protection-and-asylum-in-Sweden/Applying-for-asylum/How-to-apply-for-asylum.html [Accessed 20 Apr. 2017].
+Migrationsverket. (2017c). Main page. [online] Available at: https://www.migrationsverket.se/English [Accessed 20 Apr. 2017].
 Pater, R. (2016). Treating the refugee crisis as a design problem is problematic. [online] Available at:  https://www.dezeen.com/2016/04/21/ruben-pater-opinion-what-design-can-do-refugee-crisis-problematic-design/ [Accessed 20 Mar. 2017]
-Setelin, (2016). Start page. [online] Available at: https://setel.in/ [Accessed 20 Apr. 2017].
-SVT Nyheter, (2016). Unga nyanlända mår sämre med tiden [online] Available at: http://www.svt.se/nyheter/inrikes/unga-nyanlanda-mar-samre-med-tiden [Accessed 16 Mar. 2017].
-UN (1948). Universal Declaration of Human Rights: adopted and proclaimed by General Assembly resolution 217 (III) of 10 December 1948. [pdf] Available at: http://www.ohchr.org/EN/UDHR/Documents/UDHR_Translations/eng.pdf [Accessed 20 Apr. 2017].
-UNHCR (1967). The 1951 Convention relating to the status of refugees and its 1967 Protocol. [pdf] Available at: http://www.unhcr.org/protect/PROTECTION/3b66c2aa10.pdf [Accessed 20 Apr. 2017].
-UNHCR, (2016). Global Trends 2015. [online] Available at: http://reliefweb.int/sites/reliefweb.int/files/resources/576408cd7.pdf [Accessed 10 Mar. 2017]
-UN News Center, (2016). Unprecedented’ 65 million people displaced by war and persecution in 2015. [online] Available at: http://refugeesmigrants.un.org/%E2%80%98unprecedented%E2%80%99-65-million-people-displaced-war-and-persecution-2015-%E2%80%93-un [Accessed 10 Mar. 2017].
+Setelin. (2016). Start page. [online] Available at: https://setel.in/ [Accessed 20 Apr. 2017].
+SVT Nyheter. (2016). Unga nyanlända mår sämre med tiden [online] Available at: http://www.svt.se/nyheter/inrikes/unga-nyanlanda-mar-samre-med-tiden [Accessed 16 Mar. 2017].
+UN. (1948). Universal Declaration of Human Rights: adopted and proclaimed by General Assembly resolution 217 (III) of 10 December 1948. [pdf] Available at: http://www.ohchr.org/EN/UDHR/Documents/UDHR_Translations/eng.pdf [Accessed 20 Apr. 2017].
+UNHCR. (1967). The 1951 Convention relating to the status of refugees and its 1967 Protocol. [pdf] Available at: http://www.unhcr.org/protect/PROTECTION/3b66c2aa10.pdf [Accessed 20 Apr. 2017].
+UNHCR. (2016). Global Trends 2015. [online] Available at: http://reliefweb.int/sites/reliefweb.int/files/resources/576408cd7.pdf [Accessed 10 Mar. 2017]
+UN News Center. (2016). Unprecedented’ 65 million people displaced by war and persecution in 2015. [online] Available at: http://refugeesmigrants.un.org/%E2%80%98unprecedented%E2%80%99-65-million-people-displaced-war-and-persecution-2015-%E2%80%93-un [Accessed 10 Mar. 2017].
 Ungerleider, N. (2015). Direct Response: How Tech Is Aiding The European Refugee Crisis. [online] Available at: https://www.fastcompany.com/3050761/fast-feed/direct-response-how-tech-is-aiding-the-european-refugee-crisis [Accessed 10 Apr. 2017]
 Wendt, T. (2017). Empathy as Faux Ethics. [online] Available at: https://www.epicpeople.org/empathy-faux-ethics/ [Accessed 22 Feb. 2017]
-Øresundsinstituttet, (2017). Fakta: Effekterna av id- och gränskontroller mellan Skåne och Själland – id-kontrollerna avskaffas medan gränskontrollerna förstärks. [online] Available at: http://www.oresundsinstituttet.org/fakta-id-kontrollerna-over-oresund-forlanger-restiden-med-tag-till-sverige-med-mellan-10-och-50-minuter/ [Accessed 30 Apr. 2017].
+Øresundsinstituttet. (2017). Fakta: Effekterna av id- och gränskontroller mellan Skåne och Själland – id-kontrollerna avskaffas medan gränskontrollerna förstärks. [online] Available at: http://www.oresundsinstituttet.org/fakta-id-kontrollerna-over-oresund-forlanger-restiden-med-tag-till-sverige-med-mellan-10-och-50-minuter/ [Accessed 30 Apr. 2017].
 Laws
 SFS 2005:716. Utlänningslagen. Stockholm: Justitiedepartementet
 SFS 2015:1073. Lag om särskilda åtgärder vid allvarlig fara för den allmänna ordningen eller den inre säkerheten i landet. Stockholm: Justitiedepartementet
 SFS 2017:123. Lag om ändring i utlänningslagen (2005:716). Stockholm: Justitiedepartementet
 Radio, tv and film
-SR - Kaliber, (2017). Asylutredningarna: En rättvis bedömning?. [radio] Available at: http://sverigesradio.se/sida/avsnitt/855243?programid=1316 [Accessed 20 Mar. 2017].
+SR - Kaliber. (2017). Asylutredningarna: En rättvis bedömning? [radio] Available at: http://sverigesradio.se/sida/avsnitt/855243?programid=1316 [Accessed 20 Mar. 2017].
 SVT - Löfgren, N. & Selo, L. (2016). Ahmads resa. [tv] Available at: https://www.svtplay.se/video/11575098/ahmads-resa/ahmads-resa-avsnitt-1?info=visa [Accessed 4 Mar. 2017]
 Interviews, observations and lectures
-Asylrättstudenterna Malmö och Lund (2017). Introduction to asylum and migration law. Lund, [Visited 9 Mar. & 14 Mar. 2017].
+Asylrättstudenterna Malmö och Lund. (2017). Introduction to asylum and migration law. Lund. [Visited 9 Mar. & 14 Mar. 2017].
 Andersson, J. & Dalin, H. (2017). Interview with Dalin. [Conducted 8 Mar. 2017].
 Andersson, J. & Tofani, K. (2017). Interview with SDP Tofani. [Conducted 15 Mar. 2017].
-Andersson, J. & SMA caseworker (2017). Interview with SMA caseworker. [Transcript] See appendix: Transcript of interview with SMA caseworker (in Swedish) [Conducted 8 Mar. 2017].
-Kontrapunkt (2017). Volunteer introductory seminar. Malmö, [Visited 1 Mar. 2017].
-
-
-
-
-Jesper Andersson, IDK14.
+Andersson, J. & SMA caseworker. (2017). Interview with SMA caseworker. [Transcript] See appendix: Transcript of interview with SMA caseworker (in Swedish). [Conducted 8 Mar. 2017].
+Kontrapunkt. (2017). Volunteer introductory seminar. Malmö. [Visited 1 Mar. 2017].

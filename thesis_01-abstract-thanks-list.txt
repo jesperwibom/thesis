@@ -1,6 +1,6 @@
 Abstract
-In this work an alternative search functionality for the Swedish Migration Agency’s land information database is designed, prototyped and tested. By using machine translation and a simplified interface design it attempts to give asylum seekers better understanding on what documents are available. As a consequence of increased asylum process understanding in the user group it is stipulated that it will increase trust in the process and that asylum seekers can feel more active and engaged in their application.
-This work also critically explore the area of asylum in Sweden from a design perspective. It builds upon design politics and service design and discuss current trends when it comes to refugees and the technology and design industry. What is found is that there is an unfortunate gap in knowledge areas between humanitarian organisations and the industry. This, in partial, because an exaggerated belief in the “design method” as a universal problem solver.
+In this work, an alternative search functionality for the Swedish Migration Agency’s land information database is designed, prototyped and tested. By using machine translation, keyword filter search, and a simplified interface design, it attempts to give asylum seekers and their representatives a better tool to finding process guiding documentation. It is argued that the increased transparency of these documents can have a positive effect on the understanding of the asylum process. This, in turn, can protect individuals from unfair or arbitrary rulings, increase trust, and can create more engagement and participation in the asylum application process.
+This work also critically explore the area of asylum in Sweden from a design perspective. It builds upon design politics and service design and discusses current trends relating to refugees, design, and technology. What is found is an unfortunate gap in knowledge areas between humanitarian organizations and the design/technology industry.
 
 
 Keywords: asylum, design politics, machine translation, open data, accessibility,
@@ -17,7 +17,7 @@ Table of contents
 
 
 Introduction        9
-Deliminations        9
+Delimitations        9
 Design process overview        10
 Goals and aims        11
 Background        12
@@ -26,11 +26,11 @@ Theory        14
 Swedish migration law        14
 The process of getting asylum in Sweden        15
 The evaluation        15
-Criticism and Swedish migration agency’s own quality reports        16
+Criticism and Swedish migration agency’s quality reports        16
 Interpretation, practicalities and trust        16
 Design politics        17
 Service design in design research        17
-The role of design research artefacts        19
+The role of design research artifacts        19
 UI and accessibility        20
 Open, transparent, accessible governmental data        22
 Methods        23
@@ -80,7 +80,7 @@ Results from first tests        51
 Prototype iteration        52
 Final concept        53
 Discussion        56
-Take aways from design process        58
+Takeaways from design process        58
 Conclusion        59
 Appendix        61
 Prototype and code        61
@@ -89,8 +89,8 @@ References        66
 Printed sources        66
 Internet sources        67
 Laws        70
-Radio, tv and film        71
-Interviews, observations and lectures        71
+Radio, tv, and film        71
+Interviews, observations, and lectures        71
 
 
 ________________
@@ -98,58 +98,60 @@ ________________
 
 Figure list
 Figure 1: Page from “We traveled here”
-	31
-	Figure 2: Screenshots from the “Virtual Volunteer” app
-	32
-	Figure 3: Screenshots from Migrationsverket.se and the language select options.
-	34
-	Figure 4: Screenshot from Lifos main page
-	35
-	Figure 5: Screenshot from Lifos detailed search
-	35
-	Figure 6: Setelin start page
-	37
-	Figure 7: Screenshots from “Open data” page
-	38
-	Figure 8: The ‘New in Sweden’ section at Information om Sverige website
-	39
-	Figure 9: The ICOON for refugees book and app
-	42
-	Figure 10: Design principles
-	42
-	Figure 11: Simple service map
-	43
-	Figure 12: Illustration of keyword translation concept
-	44
-	Figure 13: Translation of Lifos documents
-	46
-	Figure 14: Program suite overview
-	48
-	Figure 15: Example of console log messages from crawler
-	49
-	Figure 16: Stored data hierarchy example
-	49
-	Figure 17: First wireframe of the client search interface
-	50
-	Figure 18: Client page prototype
-	50
-	Figure 19: Comparison of Lifos detailed search and simplified search
-	51
-	Figure 20: Wireframe of final design
-	53
-	Figure 21: List-view wireframe
-	54
-	Figure 22: Search suggestions
-	55
-	
+ 31
+ Figure 2: Screenshots from the “Virtual Volunteer” app
+ 32
+ Figure 3: Screenshots from Migrationsverket.se and the language select options.
+ 34
+ Figure 4: Screenshot from Lifos main page
+ 35
+ Figure 5: Screenshot from Lifos detailed search
+ 35
+ Figure 6: Setelin start page
+ 37
+ Figure 7: Screenshots from “Open data” page
+ 38
+ Figure 8: The ‘New in Sweden’ section at Information om Sverige website
+ 39
+ Figure 9: The ICOON for refugees book and app
+ 42
+ Figure 10: Design principles
+ 42
+ Figure 11: Simple service map
+ 43
+ Figure 12: Illustration of keyword translation concept
+ 44
+ Figure 13: Translation of Lifos documents
+ 46
+ Figure 14: Program suite overview
+ 48
+ Figure 15: Example of console log messages from crawler
+ 49
+ Figure 16: Stored data hierarchy example
+ 49
+ Figure 17: First wireframe of the client search interface
+ 50
+ Figure 18: Client page prototype
+ 50
+ Figure 19: Comparison of Lifos detailed search and simplified search
+ 51
+ Figure 20: Wireframe of final design
+ 53
+ Figure 21: List-view wireframe
+ 54
+ Figure 22: Search suggestions
+ 55
+ 
 
 ________________
 
 
 Acronyms
 NGO
-	Non governmental organisation
-	SMA
-	Swedish Migration Agency
-	SDP
-	Swedish Development Partner
+ Non-governmental organisation
+ SMA
+ Swedish Migration Agency
+ SDP
+ Swedish Development Partner
+ API
+ Application Programming Interface
